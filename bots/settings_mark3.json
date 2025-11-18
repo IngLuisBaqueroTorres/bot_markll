@@ -1,0 +1,15 @@
+{
+    "BROKER": "mt5",
+    "PAIRS": [
+        "EURUSD.sml"
+    ],
+    "TIMEFRAME": 60,
+    "SUBIDA_PIPS": 10,
+    "STOP_WIN_PIPS": 30,
+    "STOP_LOSS_PIPS": 20,
+    "MAX_POSITIONS": 3,
+    "MAGIC_NUMBER": 20251116,
+    "LEARNING_ENABLED": true,
+    "MIN_WIN_RATE": 60.0,
+    "MIN_TRADES": 10
+}

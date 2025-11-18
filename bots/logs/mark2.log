@@ -1,0 +1,364 @@
+2025-11-17 11:12:26,978 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 11:12:26,978 INFO: Balance: $9996.93
+2025-11-17 11:12:26,979 INFO: Stop Win: 30 pips
+2025-11-17 11:12:26,979 INFO: Stop Loss: 20 pips
+2025-11-17 11:12:26,979 INFO: Riesgo: 1%% del balance
+2025-11-17 11:12:26,979 INFO: Pares: EURUSD.sml
+2025-11-17 11:12:26,980 INFO: ==================================================
+2025-11-17 11:12:26,980 INFO: Activando símbolos y descargando histórico...
+2025-11-17 11:12:26,980 INFO: EURUSD.sml → seleccionado
+2025-11-17 11:12:26,992 INFO:    EURUSD.sml → histórico OK (5934 velas)
+2025-11-17 11:12:27,993 INFO: Bot operativo.
+2025-11-17 11:12:27,993 INFO: ==================================================
+2025-11-17 11:12:27,996 ERROR: Error obteniendo señal para EURUSD.sml
+TypeError: 'str' object cannot be interpreted as an integer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
+    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
+    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
+2025-11-17 11:12:57,999 ERROR: Error obteniendo señal para EURUSD.sml
+TypeError: 'str' object cannot be interpreted as an integer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
+    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
+    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
+2025-11-17 11:13:28,001 ERROR: Error obteniendo señal para EURUSD.sml
+TypeError: 'str' object cannot be interpreted as an integer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
+    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
+    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
+2025-11-17 11:13:58,003 ERROR: Error obteniendo señal para EURUSD.sml
+TypeError: 'str' object cannot be interpreted as an integer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
+    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
+    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
+2025-11-17 11:14:28,005 ERROR: Error obteniendo señal para EURUSD.sml
+TypeError: 'str' object cannot be interpreted as an integer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
+    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
+    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
+2025-11-17 11:14:39,970 INFO: Esperando thread de Telegram terminar...
+2025-11-17 11:14:41,691 INFO: BOT DETENIDO
+2025-11-17 11:14:44,281 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 11:14:44,282 INFO: Balance: $9996.93
+2025-11-17 11:14:44,282 INFO: Stop Win: 30 pips
+2025-11-17 11:14:44,282 INFO: Stop Loss: 20 pips
+2025-11-17 11:14:44,282 INFO: Riesgo: 1%% del balance
+2025-11-17 11:14:44,282 INFO: Pares: EURUSD.sml
+2025-11-17 11:14:44,283 INFO: ==================================================
+2025-11-17 11:14:44,283 INFO: Activando símbolos y descargando histórico...
+2025-11-17 11:14:44,283 INFO: EURUSD.sml → seleccionado
+2025-11-17 11:14:44,296 INFO:    EURUSD.sml → histórico OK (5934 velas)
+2025-11-17 11:14:45,297 INFO: Bot operativo.
+2025-11-17 11:14:45,297 INFO: ==================================================
+2025-11-17 11:23:55,389 DEBUG: Mercado cerrado. Esperando apertura...
+2025-11-17 11:24:25,390 DEBUG: Mercado cerrado. Esperando apertura...
+2025-11-17 11:24:55,287 INFO: Esperando thread de Telegram terminar...
+2025-11-17 11:25:00,129 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 11:25:00,130 INFO: Balance: $9996.93
+2025-11-17 11:25:00,130 INFO: Stop Win: 30 pips
+2025-11-17 11:25:00,130 INFO: Stop Loss: 20 pips
+2025-11-17 11:25:00,131 INFO: Riesgo: 1%% del balance
+2025-11-17 11:25:00,131 INFO: Pares: USDCHF
+2025-11-17 11:25:00,131 INFO: ==================================================
+2025-11-17 11:25:00,131 INFO: Activando símbolos y descargando histórico...
+2025-11-17 11:25:00,131 INFO: USDCHF → seleccionado
+2025-11-17 11:25:00,229 INFO:    USDCHF → histórico OK (5937 velas)
+2025-11-17 11:25:01,231 INFO: Bot operativo.
+2025-11-17 11:25:01,231 INFO: ==================================================
+2025-11-17 11:32:42,145 INFO: Esperando thread de Telegram terminar...
+2025-11-17 11:32:43,593 INFO: BOT DETENIDO
+2025-11-17 11:32:46,802 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 11:32:46,802 INFO: Balance: $9996.93
+2025-11-17 11:32:46,802 INFO: Stop Win: 30 pips
+2025-11-17 11:32:46,802 INFO: Stop Loss: 20 pips
+2025-11-17 11:32:46,804 INFO: Riesgo: 1%% del balance
+2025-11-17 11:32:46,804 INFO: Pares: EURUSD.sml
+2025-11-17 11:32:46,804 INFO: ==================================================
+2025-11-17 11:32:46,804 INFO: Activando símbolos y descargando histórico...
+2025-11-17 11:32:46,804 INFO: EURUSD.sml → seleccionado
+2025-11-17 11:32:46,805 INFO:    EURUSD.sml → histórico OK (5938 velas)
+2025-11-17 11:32:47,805 INFO: Bot operativo.
+2025-11-17 11:32:47,805 INFO: ==================================================
+2025-11-17 11:43:38,671 INFO: Esperando thread de Telegram terminar...
+2025-11-17 11:43:40,675 INFO: BOT DETENIDO
+2025-11-17 11:43:44,117 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 11:43:44,118 INFO: Balance: $9996.93
+2025-11-17 11:43:44,118 INFO: Stop Win: 30 pips
+2025-11-17 11:43:44,118 INFO: Stop Loss: 20 pips
+2025-11-17 11:43:44,118 INFO: Riesgo: 1%% del balance
+2025-11-17 11:43:44,118 INFO: Pares: EURUSD.sml
+2025-11-17 11:43:44,119 INFO: ==================================================
+2025-11-17 11:43:44,119 INFO: Activando símbolos y descargando histórico...
+2025-11-17 11:43:44,119 INFO: EURUSD.sml → seleccionado
+2025-11-17 11:43:44,120 INFO:    EURUSD.sml → histórico OK (5940 velas)
+2025-11-17 11:43:45,121 INFO: Bot operativo.
+2025-11-17 11:43:45,121 INFO: ==================================================
+2025-11-17 11:43:45,930 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092757
+2025-11-17 11:45:46,701 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092795
+2025-11-17 11:54:18,301 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092918
+2025-11-17 11:55:19,140 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092935
+2025-11-17 12:04:49,878 INFO: BOT DETENIDO
+2025-11-17 12:04:57,231 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 12:04:57,231 INFO: Balance: $9985.93
+2025-11-17 12:04:57,232 INFO: Stop Win: 30 pips
+2025-11-17 12:04:57,232 INFO: Stop Loss: 20 pips
+2025-11-17 12:04:57,232 INFO: Riesgo: 1%% del balance
+2025-11-17 12:04:57,232 INFO: Pares: EURUSD.sml
+2025-11-17 12:04:57,233 INFO: ==================================================
+2025-11-17 12:04:57,233 INFO: Activando símbolos y descargando histórico...
+2025-11-17 12:04:57,233 INFO: EURUSD.sml → seleccionado
+2025-11-17 12:04:57,234 INFO:    EURUSD.sml → histórico OK (5944 velas)
+2025-11-17 12:04:58,234 INFO: Bot operativo.
+2025-11-17 12:04:58,235 INFO: ==================================================
+2025-11-17 12:05:29,004 INFO: BOT DETENIDO
+2025-11-17 12:06:48,975 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 12:06:48,975 INFO: Balance: $9985.93
+2025-11-17 12:06:48,975 INFO: Stop Win: 30 pips
+2025-11-17 12:06:48,975 INFO: Stop Loss: 20 pips
+2025-11-17 12:06:48,975 INFO: Riesgo: 1%% del balance
+2025-11-17 12:06:48,975 INFO: Pares: EURUSD.sml
+2025-11-17 12:06:48,975 INFO: ==================================================
+2025-11-17 12:06:48,975 INFO: Activando símbolos y descargando histórico...
+2025-11-17 12:06:48,975 INFO: EURUSD.sml → seleccionado
+2025-11-17 12:06:48,975 INFO:    EURUSD.sml → histórico OK (5945 velas)
+2025-11-17 12:06:49,981 INFO: Bot operativo.
+2025-11-17 12:06:49,981 INFO: ==================================================
+2025-11-17 12:07:20,675 INFO: BOT DETENIDO
+2025-11-17 12:07:28,951 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 12:07:28,951 INFO: Balance: $9985.93
+2025-11-17 12:07:28,952 INFO: Stop Win: 30 pips
+2025-11-17 12:07:28,952 INFO: Stop Loss: 20 pips
+2025-11-17 12:07:28,952 INFO: Riesgo: 1%% del balance
+2025-11-17 12:07:28,953 INFO: Pares: EURUSD.sml
+2025-11-17 12:07:28,953 INFO: ==================================================
+2025-11-17 12:07:28,953 INFO: Activando símbolos y descargando histórico...
+2025-11-17 12:07:28,953 INFO: EURUSD.sml → seleccionado
+2025-11-17 12:07:28,954 INFO:    EURUSD.sml → histórico OK (5945 velas)
+2025-11-17 12:07:29,955 INFO: Bot operativo.
+2025-11-17 12:07:29,955 INFO: ==================================================
+2025-11-17 12:08:01,441 INFO: BOT DETENIDO
+2025-11-17 12:08:39,550 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 12:08:39,550 INFO: Balance: $10007.93
+2025-11-17 12:08:39,550 INFO: Stop Win: 30 pips
+2025-11-17 12:08:39,550 INFO: Stop Loss: 20 pips
+2025-11-17 12:08:39,550 INFO: Riesgo: 1%% del balance
+2025-11-17 12:08:39,550 INFO: Pares: EURUSD.sml
+2025-11-17 12:08:39,550 INFO: ==================================================
+2025-11-17 12:08:39,550 INFO: Activando símbolos y descargando histórico...
+2025-11-17 12:08:39,550 INFO: EURUSD.sml → seleccionado
+2025-11-17 12:08:39,550 INFO:    EURUSD.sml → histórico OK (5945 velas)
+2025-11-17 12:08:40,558 INFO: Bot operativo.
+2025-11-17 12:08:40,558 INFO: ==================================================
+2025-11-17 12:08:41,404 INFO: Orden abierta: EURUSD.sml BUY lot 1.0 ticket 31093210
+2025-11-17 12:09:12,072 INFO: BOT DETENIDO
+2025-11-17 12:10:03,612 INFO: BOT MARK2 PRO INICIADO
+2025-11-17 12:10:03,612 INFO: Balance: $10007.93
+2025-11-17 12:10:03,612 INFO: Stop Win: 30 pips
+2025-11-17 12:10:03,614 INFO: Stop Loss: 20 pips
+2025-11-17 12:10:03,614 INFO: Riesgo: 1%% del balance
+2025-11-17 12:10:03,614 INFO: Pares: EURUSD.sml
+2025-11-17 12:10:03,614 INFO: ==================================================
+2025-11-17 12:10:03,614 INFO: Activando símbolos y descargando histórico...
+2025-11-17 12:10:03,614 INFO: EURUSD.sml → seleccionado
+2025-11-17 12:10:03,615 INFO:    EURUSD.sml → histórico OK (5946 velas)
+2025-11-17 12:10:04,615 INFO: Bot operativo.
+2025-11-17 12:10:04,615 INFO: ==================================================
+2025-11-17 12:10:35,279 INFO: BOT DETENIDO
+2025-11-17 12:11:50,800 INFO: BOT MARK2 PRO INICIADO - Balance: $10007.93 - Pares: EURUSD.sml
+2025-11-17 12:11:50,801 INFO: ============================================================
+2025-11-17 12:12:20,803 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Adiós!
+2025-11-17 12:13:37,459 INFO: BOT MARK2 PRO INICIADO - Balance: $10007.93 - Pares: EURUSD.sml
+2025-11-17 12:13:37,459 INFO: ============================================================
+2025-11-17 12:13:37,459 INFO: Bucle principal iniciado - EL BOT ES INMORTAL
+2025-11-17 12:14:07,466 INFO: MARK2 PRO sigue vivo o detenido por ti. Nunca se apagará solo.
+2025-11-17 12:14:32,036 INFO: BOT MARK2 PRO INICIADO - Balance: $10007.93 - Pares: EURUSD.sml
+2025-11-17 12:14:32,036 INFO: ============================================================
+2025-11-17 12:14:32,036 INFO: Bucle principal iniciado - EL BOT ES INMORTAL
+2025-11-17 12:15:02,042 INFO: MARK2 PRO sigue vivo o detenido por ti. Nunca se apagará solo.
+2025-11-17 12:19:20,336 INFO: MARK2 PRO INICIADO | Balance: $10007.93 | Pares: EURUSD.sml
+2025-11-17 12:19:20,337 INFO: ======================================================================
+2025-11-17 12:19:20,337 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-17 12:19:50,340 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-17 12:21:56,037 INFO: MARK2 PRO INICIADO | Balance: $10038.93 | Pares: EURUSD.sml
+2025-11-17 12:21:56,037 INFO: ======================================================================
+2025-11-17 12:21:56,037 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-17 12:21:56,719 INFO: Comando Telegram recibido: /start
+2025-11-17 12:21:56,862 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31093493
+2025-11-17 12:38:28,553 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31093971
+2025-11-17 12:48:30,146 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094149
+2025-11-17 13:10:30,977 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094577
+2025-11-17 13:11:32,100 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094606
+2025-11-17 13:12:02,912 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094613
+2025-11-17 13:24:46,987 INFO: Comando Telegram recibido: /status
+2025-11-17 13:35:04,635 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31095594
+2025-11-17 13:37:35,476 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31095694
+2025-11-17 13:46:12,980 INFO: Comando Telegram recibido: /status
+2025-11-17 13:49:37,178 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31095883
+2025-11-17 14:28:08,166 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31096903
+2025-11-17 14:33:39,816 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31097180
+2025-11-17 14:37:41,504 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31097395
+2025-11-17 14:42:12,293 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31097825
+2025-11-17 14:47:07,359 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-17 14:47:07,359 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-17 14:47:12,533 INFO: MARK2 PRO INICIADO | Balance: $10052.93 | Pares: EURUSD.sml
+2025-11-17 14:47:12,533 INFO: ======================================================================
+2025-11-17 14:47:12,533 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-17 14:57:13,327 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31098114
+2025-11-17 15:00:14,109 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31098195
+2025-11-17 15:07:06,652 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-17 15:07:06,652 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-17 16:00:13,903 INFO: MARK2 PRO INICIADO | Balance: $10033.03 | Pares: EURUSD.sml
+2025-11-17 16:00:13,909 INFO: ======================================================================
+2025-11-17 16:00:13,909 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-17 16:00:14,947 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099304
+2025-11-17 16:06:15,730 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099361
+2025-11-17 16:27:16,541 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099490
+2025-11-17 16:32:17,351 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099518
+2025-11-17 16:36:18,129 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099537
+2025-11-17 17:32:19,094 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099700
+2025-11-17 17:51:23,729 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-17 17:51:23,730 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-17 17:51:27,780 INFO: MARK2 PRO INICIADO | Balance: $10031.82 | Pares: EURUSD.sml
+2025-11-17 17:51:27,781 INFO: ======================================================================
+2025-11-17 17:51:27,781 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-17 17:51:31,760 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-17 17:51:31,760 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-18 09:31:16,580 INFO: MARK2 PRO INICIADO | Balance: $10031.82 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 09:31:16,596 INFO: ======================================================================
+2025-11-18 09:31:16,596 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-18 09:31:17,386 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31120291
+2025-11-18 09:31:18,617 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31120293
+2025-11-18 09:31:19,679 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31120298
+2025-11-18 09:31:20,905 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-18 09:31:20,905 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-18 09:33:39,801 INFO: MARK2 PRO INICIADO | Balance: $10031.59 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 09:33:39,801 INFO: ======================================================================
+2025-11-18 09:33:39,801 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-18 09:33:40,607 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31120449
+2025-11-18 09:33:41,411 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-18 09:33:41,411 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-18 09:37:38,947 INFO: MARK2 PRO INICIADO | Balance: $10030.91 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 09:37:38,947 INFO: ======================================================================
+2025-11-18 09:37:38,947 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-18 09:37:39,755 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31120600
+2025-11-18 09:37:40,526 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31120601
+2025-11-18 09:37:40,784 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-18 09:37:40,784 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-18 09:39:13,361 INFO: MARK2 PRO INICIADO | Balance: $10030.53 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 09:39:13,361 INFO: ======================================================================
+2025-11-18 09:39:13,361 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-18 09:39:14,177 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31120640
+2025-11-18 09:39:16,113 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-18 09:39:16,113 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-18 09:40:08,823 INFO: MARK2 PRO INICIADO | Balance: $10030.53 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 09:40:08,823 INFO: ======================================================================
+2025-11-18 09:40:08,823 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
+2025-11-18 09:53:09,689 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31121237
+2025-11-18 09:53:10,919 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31121239
+2025-11-18 09:54:12,031 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31121289
+2025-11-18 09:54:12,963 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31121290
+2025-11-18 09:57:15,480 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31121429
+2025-11-18 09:57:16,514 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31121435
+2025-11-18 10:05:17,397 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31121802
+2025-11-18 10:05:18,261 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31121803
+2025-11-18 10:11:19,049 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31121994
+2025-11-18 10:11:20,265 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31121996
+2025-11-18 10:16:21,120 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31122198
+2025-11-18 10:16:22,000 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31122199
+2025-11-18 10:20:22,785 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31122301
+2025-11-18 10:20:23,624 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31122302
+2025-11-18 10:26:24,568 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31122532
+2025-11-18 10:26:25,386 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31122533
+2025-11-18 10:29:26,166 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31122600
+2025-11-18 10:29:26,941 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31122602
+2025-11-18 10:46:28,835 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31123082
+2025-11-18 10:46:29,651 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31123084
+2025-11-18 10:51:30,658 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123250
+2025-11-18 10:51:31,474 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31123252
+2025-11-18 10:51:32,319 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31123253
+2025-11-18 10:56:35,142 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123421
+2025-11-18 10:56:36,100 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31123423
+2025-11-18 10:56:36,981 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31123424
+2025-11-18 10:58:37,856 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123485
+2025-11-18 10:58:38,728 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31123486
+2025-11-18 10:58:39,588 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31123487
+2025-11-18 11:03:40,443 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123802
+2025-11-18 11:03:41,232 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31123805
+2025-11-18 11:03:42,017 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31123807
+2025-11-18 11:12:43,006 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31124637
+2025-11-18 11:12:43,894 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31124639
+2025-11-18 11:12:44,738 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31124640
+2025-11-18 11:46:46,412 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31127749
+2025-11-18 11:46:47,190 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31127750
+2025-11-18 12:10:48,036 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31129481
+2025-11-18 12:10:48,946 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31129484
+2025-11-18 12:14:49,773 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31129864
+2025-11-18 12:14:50,586 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31129865
+2025-11-18 12:29:52,298 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31132240
+2025-11-18 12:29:53,109 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31132242
+2025-11-18 12:35:53,885 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31132714
+2025-11-18 12:35:54,682 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31132718
+2025-11-18 12:42:55,534 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31133330
+2025-11-18 12:42:56,311 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31133331
+2025-11-18 12:45:57,075 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31133541
+2025-11-18 12:45:57,847 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31133542
+2025-11-18 13:01:58,700 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31134438
+2025-11-18 13:01:59,539 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31134439
+2025-11-18 13:11:01,013 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31134803
+2025-11-18 13:11:02,048 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31134810
+2025-11-18 13:15:02,933 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31135007
+2025-11-18 13:15:03,853 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135009
+2025-11-18 13:24:05,721 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135398
+2025-11-18 13:24:06,551 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31135399
+2025-11-18 13:30:07,547 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135546
+2025-11-18 13:30:08,405 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31135548
+2025-11-18 13:36:09,229 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31135643
+2025-11-18 13:36:10,062 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135644
+2025-11-18 13:44:10,991 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31135790
+2025-11-18 13:44:11,952 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135791
+2025-11-18 13:44:13,401 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31135792
+2025-11-18 14:36:27,102 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
+2025-11-18 14:36:27,102 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
+2025-11-18 14:36:31,526 INFO: MARK2 PRO ÓPTIMO INICIADO | Balance: $10026.73 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 14:36:31,526 INFO: ================================================================================
+2025-11-18 14:39:26,304 INFO: BOT DETENIDO POR TI
+2025-11-18 14:39:26,304 INFO: MARK2 PRO DETENIDO CORRECTAMENTE

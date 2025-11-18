@@ -1,0 +1,12 @@
+{
+  "RISK_PCT": 0.5,                  
+  "MAX_POSITIONS": 2,               
+  "STOP_LOSS_PIPS": 35,             
+  "STOP_WIN_PIPS": 70,              
+  "SUBIDA_PIPS": 3,                 
+  "MAIN_LOOP_DELAY": 60,            
+  "PAIRS": ["EURUSD.sml", "GBPUSD.sml", "USDJPY.sml"],  
+  "LEARNING_ENABLED": true,        
+  "MIN_TRADES": 15,
+  "MIN_WIN_RATE": 58
+}

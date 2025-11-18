@@ -1,0 +1,91 @@
+{
+  "trades": [
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 29.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T11:53:47.498882"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 22.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T12:07:30.755746"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 22.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T12:37:57.711998"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 23.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T12:47:59.346270"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 22.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T13:34:33.783532"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 22.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T13:49:06.305822"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 27.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T14:33:09.009351"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 22.0,
+      "reason": "Take Profit",
+      "time": "2025-11-17T14:37:10.703879"
+    },
+    {
+      "symbol": "USDJPY.sml",
+      "profit": 0.41,
+      "reason": "Take Profit",
+      "time": "2025-11-18T10:35:28.045214"
+    },
+    {
+      "symbol": "GBPUSD.sml",
+      "profit": 0.56,
+      "reason": "Take Profit",
+      "time": "2025-11-18T10:55:33.211242"
+    },
+    {
+      "symbol": "USDJPY.sml",
+      "profit": 0.37,
+      "reason": "Take Profit",
+      "time": "2025-11-18T10:55:34.228100"
+    },
+    {
+      "symbol": "USDJPY.sml",
+      "profit": 0.42,
+      "reason": "Take Profit",
+      "time": "2025-11-18T11:15:45.559217"
+    },
+    {
+      "symbol": "GBPUSD.sml",
+      "profit": 0.59,
+      "reason": "Take Profit",
+      "time": "2025-11-18T12:28:51.494968"
+    },
+    {
+      "symbol": "USDJPY.sml",
+      "profit": 0.39,
+      "reason": "Take Profit",
+      "time": "2025-11-18T13:17:04.838949"
+    }
+  ],
+  "win_rate": 100.0,
+  "total_profit": 191.74,
+  "last_update": "2025-11-18T13:17:04.838949"
+}

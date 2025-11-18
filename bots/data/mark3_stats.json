@@ -1,0 +1,21 @@
+{
+  "trades": [
+    {
+      "profit": 0.57
+    },
+    {
+      "profit": 0.39
+    },
+    {
+      "profit": 0.64
+    },
+    {
+      "profit": 0.58
+    },
+    {
+      "profit": 0.64
+    }
+  ],
+  "total_profit": 2.82,
+  "win_rate": 100.0
+}
