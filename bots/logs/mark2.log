@@ -362,3 +362,5 @@ SystemError: <built-in function copy_rates_from_pos> returned a result with an e
 2025-11-18 14:36:31,526 INFO: ================================================================================
 2025-11-18 14:39:26,304 INFO: BOT DETENIDO POR TI
 2025-11-18 14:39:26,304 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-18 14:39:28,816 INFO: MARK2 PRO ÓPTIMO INICIADO | Balance: $10026.73 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
+2025-11-18 14:39:28,816 INFO: ================================================================================
