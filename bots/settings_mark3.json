@@ -1,15 +1,14 @@
 {
-    "BROKER": "mt5",
-    "PAIRS": [
-        "EURUSD.sml"
-    ],
-    "TIMEFRAME": 60,
-    "SUBIDA_PIPS": 10,
-    "STOP_WIN_PIPS": 30,
-    "STOP_LOSS_PIPS": 20,
-    "MAX_POSITIONS": 3,
-    "MAGIC_NUMBER": 20251116,
-    "LEARNING_ENABLED": true,
-    "MIN_WIN_RATE": 60.0,
-    "MIN_TRADES": 10
+  "PAIRS": ["EURUSD", "GBPUSD"],
+  "TIMEFRAME": 60,
+  "RISK_PCT": 1.0,
+  "MAX_POSITIONS": 1,
+  "EMA_FAST": 20,
+  "EMA_SLOW": 50,
+  "ATR_MULT_SL": 1.5,
+  "ATR_MULT_TP": 3.0,
+  "MAIN_LOOP_DELAY": 60,
+
+  "feed_source": "mt5",         
+  "use_new_parser": false       
 }

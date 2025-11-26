@@ -1,6 +1,16 @@
-
-# Environments
+# Fichero de variables de entorno. ¡NO SUBIR A GIT!
 .env
 
-# Logs
-bots/logs/
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Directorios de datos y logs generados por los bots
+/bots/data/
+/bots/logs/
+
+# Configuraciones de editores de código
+.vscode/
+.idea/

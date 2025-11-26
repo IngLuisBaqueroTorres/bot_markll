@@ -32,9 +32,10 @@ def send_telegram_message(text: str):
         return False
 
 
-def notify_bot_started(balance, stop_win, stop_loss, pairs):
+def notify_bot_started(balance, stop_win, stop_loss, pairs, bot_name="BOT WITH NOT NAME"):
     msg = f"""
-<b>🤖 BOT MARK2 PRO INICIADO</b>
+
+<b>🤖 BOT {bot_name} INICIADO</b>
 
 💰 <b>BALANCE ACTUAL:</b> ${balance:.2f}
 🎯 <b>STOP WIN:</b> {stop_win} pips

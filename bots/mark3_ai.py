@@ -210,7 +210,8 @@ class Mark3Pro:
                 tp_distance = atr_val * self.ATR_MULT_TP
                 sl_pips = sl_distance / point
 
-                lots = self._calc_lots(symbol, sl_pips)  # ← LOTE DINÁMICO REAL
+                #lots = self._calc_lots(symbol, sl_pips)  # ← LOTE DINÁMICO REAL
+                lots = 0.01  # ← LOTE FIJO
 
                 recent_high = df['high'].iloc[-20:-1].max()
                 recent_low = df['low'].iloc[-20:-1].min()
@@ -271,7 +272,7 @@ class Mark3Pro:
             return
 
         balance = mt5.account_info().balance or 0
-        notify_bot_started(balance, f"ATR x{self.ATR_MULT_TP}", f"ATR x{self.ATR_MULT_SL}", self.pairs)
+        notify_bot_started(balance, f"ATR x{self.ATR_MULT_TP}", f"ATR x{self.ATR_MULT_SL}", self.pairs, "MARK3 PRO")
         logger.info("MARK3 PRO INMORTAL INICIADO | Balance: $%.2f | Pares: %s", balance, ", ".join(self.pairs))
 
         def tg_thread():

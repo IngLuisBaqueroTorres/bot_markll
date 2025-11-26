@@ -83,9 +83,27 @@
       "profit": 0.39,
       "reason": "Take Profit",
       "time": "2025-11-18T13:17:04.838949"
+    },
+    {
+      "symbol": "GBPUSD.sml",
+      "profit": 0.65,
+      "reason": "Take Profit",
+      "time": "2025-11-18T15:37:32.686136"
+    },
+    {
+      "symbol": "EURUSD.sml",
+      "profit": 18.56,
+      "reason": "Take Profit",
+      "time": "2025-11-18T15:52:34.258923"
+    },
+    {
+      "symbol": "GBPUSD",
+      "profit": 0.44,
+      "reason": "Take Profit",
+      "time": "2025-11-25T12:46:53.884554"
     }
   ],
   "win_rate": 100.0,
-  "total_profit": 191.74,
-  "last_update": "2025-11-18T13:17:04.838949"
+  "total_profit": 211.39,
+  "last_update": "2025-11-25T12:46:53.884554"
 }

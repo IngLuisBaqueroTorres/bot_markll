@@ -1,366 +1,1439 @@
-2025-11-17 11:12:26,978 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 11:12:26,978 INFO: Balance: $9996.93
-2025-11-17 11:12:26,979 INFO: Stop Win: 30 pips
-2025-11-17 11:12:26,979 INFO: Stop Loss: 20 pips
-2025-11-17 11:12:26,979 INFO: Riesgo: 1%% del balance
-2025-11-17 11:12:26,979 INFO: Pares: EURUSD.sml
-2025-11-17 11:12:26,980 INFO: ==================================================
-2025-11-17 11:12:26,980 INFO: Activando símbolos y descargando histórico...
-2025-11-17 11:12:26,980 INFO: EURUSD.sml → seleccionado
-2025-11-17 11:12:26,992 INFO:    EURUSD.sml → histórico OK (5934 velas)
-2025-11-17 11:12:27,993 INFO: Bot operativo.
-2025-11-17 11:12:27,993 INFO: ==================================================
-2025-11-17 11:12:27,996 ERROR: Error obteniendo señal para EURUSD.sml
-TypeError: 'str' object cannot be interpreted as an integer
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
-    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
-    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
-2025-11-17 11:12:57,999 ERROR: Error obteniendo señal para EURUSD.sml
-TypeError: 'str' object cannot be interpreted as an integer
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
-    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
-    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
-2025-11-17 11:13:28,001 ERROR: Error obteniendo señal para EURUSD.sml
-TypeError: 'str' object cannot be interpreted as an integer
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
-    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
-    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
-2025-11-17 11:13:58,003 ERROR: Error obteniendo señal para EURUSD.sml
-TypeError: 'str' object cannot be interpreted as an integer
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
-    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
-    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
-2025-11-17 11:14:28,005 ERROR: Error obteniendo señal para EURUSD.sml
-TypeError: 'str' object cannot be interpreted as an integer
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\bots\mark2_ai.py", line 165, in get_signal
-    candles = self.feed.get_candles(symbol, self.settings.get("TIMEFRAME"), 100)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\eduar\OneDrive\Desktop\todo\personal\proyectos\bot_markll\utils\feed_selector.py", line 28, in get_candles
-    rates = mt5.copy_rates_from_pos(symbol, timeframe, 0, count)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SystemError: <built-in function copy_rates_from_pos> returned a result with an exception set
-2025-11-17 11:14:39,970 INFO: Esperando thread de Telegram terminar...
-2025-11-17 11:14:41,691 INFO: BOT DETENIDO
-2025-11-17 11:14:44,281 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 11:14:44,282 INFO: Balance: $9996.93
-2025-11-17 11:14:44,282 INFO: Stop Win: 30 pips
-2025-11-17 11:14:44,282 INFO: Stop Loss: 20 pips
-2025-11-17 11:14:44,282 INFO: Riesgo: 1%% del balance
-2025-11-17 11:14:44,282 INFO: Pares: EURUSD.sml
-2025-11-17 11:14:44,283 INFO: ==================================================
-2025-11-17 11:14:44,283 INFO: Activando símbolos y descargando histórico...
-2025-11-17 11:14:44,283 INFO: EURUSD.sml → seleccionado
-2025-11-17 11:14:44,296 INFO:    EURUSD.sml → histórico OK (5934 velas)
-2025-11-17 11:14:45,297 INFO: Bot operativo.
-2025-11-17 11:14:45,297 INFO: ==================================================
-2025-11-17 11:23:55,389 DEBUG: Mercado cerrado. Esperando apertura...
-2025-11-17 11:24:25,390 DEBUG: Mercado cerrado. Esperando apertura...
-2025-11-17 11:24:55,287 INFO: Esperando thread de Telegram terminar...
-2025-11-17 11:25:00,129 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 11:25:00,130 INFO: Balance: $9996.93
-2025-11-17 11:25:00,130 INFO: Stop Win: 30 pips
-2025-11-17 11:25:00,130 INFO: Stop Loss: 20 pips
-2025-11-17 11:25:00,131 INFO: Riesgo: 1%% del balance
-2025-11-17 11:25:00,131 INFO: Pares: USDCHF
-2025-11-17 11:25:00,131 INFO: ==================================================
-2025-11-17 11:25:00,131 INFO: Activando símbolos y descargando histórico...
-2025-11-17 11:25:00,131 INFO: USDCHF → seleccionado
-2025-11-17 11:25:00,229 INFO:    USDCHF → histórico OK (5937 velas)
-2025-11-17 11:25:01,231 INFO: Bot operativo.
-2025-11-17 11:25:01,231 INFO: ==================================================
-2025-11-17 11:32:42,145 INFO: Esperando thread de Telegram terminar...
-2025-11-17 11:32:43,593 INFO: BOT DETENIDO
-2025-11-17 11:32:46,802 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 11:32:46,802 INFO: Balance: $9996.93
-2025-11-17 11:32:46,802 INFO: Stop Win: 30 pips
-2025-11-17 11:32:46,802 INFO: Stop Loss: 20 pips
-2025-11-17 11:32:46,804 INFO: Riesgo: 1%% del balance
-2025-11-17 11:32:46,804 INFO: Pares: EURUSD.sml
-2025-11-17 11:32:46,804 INFO: ==================================================
-2025-11-17 11:32:46,804 INFO: Activando símbolos y descargando histórico...
-2025-11-17 11:32:46,804 INFO: EURUSD.sml → seleccionado
-2025-11-17 11:32:46,805 INFO:    EURUSD.sml → histórico OK (5938 velas)
-2025-11-17 11:32:47,805 INFO: Bot operativo.
-2025-11-17 11:32:47,805 INFO: ==================================================
-2025-11-17 11:43:38,671 INFO: Esperando thread de Telegram terminar...
-2025-11-17 11:43:40,675 INFO: BOT DETENIDO
-2025-11-17 11:43:44,117 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 11:43:44,118 INFO: Balance: $9996.93
-2025-11-17 11:43:44,118 INFO: Stop Win: 30 pips
-2025-11-17 11:43:44,118 INFO: Stop Loss: 20 pips
-2025-11-17 11:43:44,118 INFO: Riesgo: 1%% del balance
-2025-11-17 11:43:44,118 INFO: Pares: EURUSD.sml
-2025-11-17 11:43:44,119 INFO: ==================================================
-2025-11-17 11:43:44,119 INFO: Activando símbolos y descargando histórico...
-2025-11-17 11:43:44,119 INFO: EURUSD.sml → seleccionado
-2025-11-17 11:43:44,120 INFO:    EURUSD.sml → histórico OK (5940 velas)
-2025-11-17 11:43:45,121 INFO: Bot operativo.
-2025-11-17 11:43:45,121 INFO: ==================================================
-2025-11-17 11:43:45,930 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092757
-2025-11-17 11:45:46,701 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092795
-2025-11-17 11:54:18,301 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092918
-2025-11-17 11:55:19,140 INFO: Orden abierta: EURUSD.sml SELL lot 1.0 ticket 31092935
-2025-11-17 12:04:49,878 INFO: BOT DETENIDO
-2025-11-17 12:04:57,231 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 12:04:57,231 INFO: Balance: $9985.93
-2025-11-17 12:04:57,232 INFO: Stop Win: 30 pips
-2025-11-17 12:04:57,232 INFO: Stop Loss: 20 pips
-2025-11-17 12:04:57,232 INFO: Riesgo: 1%% del balance
-2025-11-17 12:04:57,232 INFO: Pares: EURUSD.sml
-2025-11-17 12:04:57,233 INFO: ==================================================
-2025-11-17 12:04:57,233 INFO: Activando símbolos y descargando histórico...
-2025-11-17 12:04:57,233 INFO: EURUSD.sml → seleccionado
-2025-11-17 12:04:57,234 INFO:    EURUSD.sml → histórico OK (5944 velas)
-2025-11-17 12:04:58,234 INFO: Bot operativo.
-2025-11-17 12:04:58,235 INFO: ==================================================
-2025-11-17 12:05:29,004 INFO: BOT DETENIDO
-2025-11-17 12:06:48,975 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 12:06:48,975 INFO: Balance: $9985.93
-2025-11-17 12:06:48,975 INFO: Stop Win: 30 pips
-2025-11-17 12:06:48,975 INFO: Stop Loss: 20 pips
-2025-11-17 12:06:48,975 INFO: Riesgo: 1%% del balance
-2025-11-17 12:06:48,975 INFO: Pares: EURUSD.sml
-2025-11-17 12:06:48,975 INFO: ==================================================
-2025-11-17 12:06:48,975 INFO: Activando símbolos y descargando histórico...
-2025-11-17 12:06:48,975 INFO: EURUSD.sml → seleccionado
-2025-11-17 12:06:48,975 INFO:    EURUSD.sml → histórico OK (5945 velas)
-2025-11-17 12:06:49,981 INFO: Bot operativo.
-2025-11-17 12:06:49,981 INFO: ==================================================
-2025-11-17 12:07:20,675 INFO: BOT DETENIDO
-2025-11-17 12:07:28,951 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 12:07:28,951 INFO: Balance: $9985.93
-2025-11-17 12:07:28,952 INFO: Stop Win: 30 pips
-2025-11-17 12:07:28,952 INFO: Stop Loss: 20 pips
-2025-11-17 12:07:28,952 INFO: Riesgo: 1%% del balance
-2025-11-17 12:07:28,953 INFO: Pares: EURUSD.sml
-2025-11-17 12:07:28,953 INFO: ==================================================
-2025-11-17 12:07:28,953 INFO: Activando símbolos y descargando histórico...
-2025-11-17 12:07:28,953 INFO: EURUSD.sml → seleccionado
-2025-11-17 12:07:28,954 INFO:    EURUSD.sml → histórico OK (5945 velas)
-2025-11-17 12:07:29,955 INFO: Bot operativo.
-2025-11-17 12:07:29,955 INFO: ==================================================
-2025-11-17 12:08:01,441 INFO: BOT DETENIDO
-2025-11-17 12:08:39,550 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 12:08:39,550 INFO: Balance: $10007.93
-2025-11-17 12:08:39,550 INFO: Stop Win: 30 pips
-2025-11-17 12:08:39,550 INFO: Stop Loss: 20 pips
-2025-11-17 12:08:39,550 INFO: Riesgo: 1%% del balance
-2025-11-17 12:08:39,550 INFO: Pares: EURUSD.sml
-2025-11-17 12:08:39,550 INFO: ==================================================
-2025-11-17 12:08:39,550 INFO: Activando símbolos y descargando histórico...
-2025-11-17 12:08:39,550 INFO: EURUSD.sml → seleccionado
-2025-11-17 12:08:39,550 INFO:    EURUSD.sml → histórico OK (5945 velas)
-2025-11-17 12:08:40,558 INFO: Bot operativo.
-2025-11-17 12:08:40,558 INFO: ==================================================
-2025-11-17 12:08:41,404 INFO: Orden abierta: EURUSD.sml BUY lot 1.0 ticket 31093210
-2025-11-17 12:09:12,072 INFO: BOT DETENIDO
-2025-11-17 12:10:03,612 INFO: BOT MARK2 PRO INICIADO
-2025-11-17 12:10:03,612 INFO: Balance: $10007.93
-2025-11-17 12:10:03,612 INFO: Stop Win: 30 pips
-2025-11-17 12:10:03,614 INFO: Stop Loss: 20 pips
-2025-11-17 12:10:03,614 INFO: Riesgo: 1%% del balance
-2025-11-17 12:10:03,614 INFO: Pares: EURUSD.sml
-2025-11-17 12:10:03,614 INFO: ==================================================
-2025-11-17 12:10:03,614 INFO: Activando símbolos y descargando histórico...
-2025-11-17 12:10:03,614 INFO: EURUSD.sml → seleccionado
-2025-11-17 12:10:03,615 INFO:    EURUSD.sml → histórico OK (5946 velas)
-2025-11-17 12:10:04,615 INFO: Bot operativo.
-2025-11-17 12:10:04,615 INFO: ==================================================
-2025-11-17 12:10:35,279 INFO: BOT DETENIDO
-2025-11-17 12:11:50,800 INFO: BOT MARK2 PRO INICIADO - Balance: $10007.93 - Pares: EURUSD.sml
-2025-11-17 12:11:50,801 INFO: ============================================================
-2025-11-17 12:12:20,803 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Adiós!
-2025-11-17 12:13:37,459 INFO: BOT MARK2 PRO INICIADO - Balance: $10007.93 - Pares: EURUSD.sml
-2025-11-17 12:13:37,459 INFO: ============================================================
-2025-11-17 12:13:37,459 INFO: Bucle principal iniciado - EL BOT ES INMORTAL
-2025-11-17 12:14:07,466 INFO: MARK2 PRO sigue vivo o detenido por ti. Nunca se apagará solo.
-2025-11-17 12:14:32,036 INFO: BOT MARK2 PRO INICIADO - Balance: $10007.93 - Pares: EURUSD.sml
-2025-11-17 12:14:32,036 INFO: ============================================================
-2025-11-17 12:14:32,036 INFO: Bucle principal iniciado - EL BOT ES INMORTAL
-2025-11-17 12:15:02,042 INFO: MARK2 PRO sigue vivo o detenido por ti. Nunca se apagará solo.
-2025-11-17 12:19:20,336 INFO: MARK2 PRO INICIADO | Balance: $10007.93 | Pares: EURUSD.sml
-2025-11-17 12:19:20,337 INFO: ======================================================================
-2025-11-17 12:19:20,337 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-17 12:19:50,340 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-17 12:21:56,037 INFO: MARK2 PRO INICIADO | Balance: $10038.93 | Pares: EURUSD.sml
-2025-11-17 12:21:56,037 INFO: ======================================================================
-2025-11-17 12:21:56,037 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-17 12:21:56,719 INFO: Comando Telegram recibido: /start
-2025-11-17 12:21:56,862 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31093493
-2025-11-17 12:38:28,553 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31093971
-2025-11-17 12:48:30,146 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094149
-2025-11-17 13:10:30,977 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094577
-2025-11-17 13:11:32,100 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094606
-2025-11-17 13:12:02,912 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31094613
-2025-11-17 13:24:46,987 INFO: Comando Telegram recibido: /status
-2025-11-17 13:35:04,635 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31095594
-2025-11-17 13:37:35,476 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31095694
-2025-11-17 13:46:12,980 INFO: Comando Telegram recibido: /status
-2025-11-17 13:49:37,178 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31095883
-2025-11-17 14:28:08,166 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31096903
-2025-11-17 14:33:39,816 INFO: ABIERTA: EURUSD.sml SELL lote 1.00 ticket 31097180
-2025-11-17 14:37:41,504 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31097395
-2025-11-17 14:42:12,293 INFO: ABIERTA: EURUSD.sml BUY lote 1.00 ticket 31097825
-2025-11-17 14:47:07,359 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-17 14:47:07,359 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-17 14:47:12,533 INFO: MARK2 PRO INICIADO | Balance: $10052.93 | Pares: EURUSD.sml
-2025-11-17 14:47:12,533 INFO: ======================================================================
-2025-11-17 14:47:12,533 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-17 14:57:13,327 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31098114
-2025-11-17 15:00:14,109 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31098195
-2025-11-17 15:07:06,652 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-17 15:07:06,652 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-17 16:00:13,903 INFO: MARK2 PRO INICIADO | Balance: $10033.03 | Pares: EURUSD.sml
-2025-11-17 16:00:13,909 INFO: ======================================================================
-2025-11-17 16:00:13,909 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-17 16:00:14,947 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099304
-2025-11-17 16:06:15,730 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099361
-2025-11-17 16:27:16,541 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099490
-2025-11-17 16:32:17,351 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099518
-2025-11-17 16:36:18,129 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099537
-2025-11-17 17:32:19,094 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31099700
-2025-11-17 17:51:23,729 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-17 17:51:23,730 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-17 17:51:27,780 INFO: MARK2 PRO INICIADO | Balance: $10031.82 | Pares: EURUSD.sml
-2025-11-17 17:51:27,781 INFO: ======================================================================
-2025-11-17 17:51:27,781 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-17 17:51:31,760 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-17 17:51:31,760 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-18 09:31:16,580 INFO: MARK2 PRO INICIADO | Balance: $10031.82 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 09:31:16,596 INFO: ======================================================================
-2025-11-18 09:31:16,596 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-18 09:31:17,386 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31120291
-2025-11-18 09:31:18,617 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31120293
-2025-11-18 09:31:19,679 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31120298
-2025-11-18 09:31:20,905 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-18 09:31:20,905 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-18 09:33:39,801 INFO: MARK2 PRO INICIADO | Balance: $10031.59 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 09:33:39,801 INFO: ======================================================================
-2025-11-18 09:33:39,801 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-18 09:33:40,607 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31120449
-2025-11-18 09:33:41,411 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-18 09:33:41,411 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-18 09:37:38,947 INFO: MARK2 PRO INICIADO | Balance: $10030.91 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 09:37:38,947 INFO: ======================================================================
-2025-11-18 09:37:38,947 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-18 09:37:39,755 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31120600
-2025-11-18 09:37:40,526 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31120601
-2025-11-18 09:37:40,784 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-18 09:37:40,784 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-18 09:39:13,361 INFO: MARK2 PRO INICIADO | Balance: $10030.53 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 09:39:13,361 INFO: ======================================================================
-2025-11-18 09:39:13,361 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-18 09:39:14,177 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31120640
-2025-11-18 09:39:16,113 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-18 09:39:16,113 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-18 09:40:08,823 INFO: MARK2 PRO INICIADO | Balance: $10030.53 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 09:40:08,823 INFO: ======================================================================
-2025-11-18 09:40:08,823 INFO: EL BOT ES INMORTAL - Solo se detiene con Ctrl+C
-2025-11-18 09:53:09,689 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31121237
-2025-11-18 09:53:10,919 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31121239
-2025-11-18 09:54:12,031 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31121289
-2025-11-18 09:54:12,963 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31121290
-2025-11-18 09:57:15,480 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31121429
-2025-11-18 09:57:16,514 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31121435
-2025-11-18 10:05:17,397 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31121802
-2025-11-18 10:05:18,261 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31121803
-2025-11-18 10:11:19,049 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31121994
-2025-11-18 10:11:20,265 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31121996
-2025-11-18 10:16:21,120 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31122198
-2025-11-18 10:16:22,000 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31122199
-2025-11-18 10:20:22,785 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31122301
-2025-11-18 10:20:23,624 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31122302
-2025-11-18 10:26:24,568 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31122532
-2025-11-18 10:26:25,386 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31122533
-2025-11-18 10:29:26,166 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31122600
-2025-11-18 10:29:26,941 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31122602
-2025-11-18 10:46:28,835 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31123082
-2025-11-18 10:46:29,651 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31123084
-2025-11-18 10:51:30,658 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123250
-2025-11-18 10:51:31,474 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31123252
-2025-11-18 10:51:32,319 INFO: ABIERTA: USDJPY.sml BUY lote 0.01 ticket 31123253
-2025-11-18 10:56:35,142 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123421
-2025-11-18 10:56:36,100 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31123423
-2025-11-18 10:56:36,981 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31123424
-2025-11-18 10:58:37,856 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123485
-2025-11-18 10:58:38,728 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31123486
-2025-11-18 10:58:39,588 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31123487
-2025-11-18 11:03:40,443 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31123802
-2025-11-18 11:03:41,232 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31123805
-2025-11-18 11:03:42,017 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31123807
-2025-11-18 11:12:43,006 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31124637
-2025-11-18 11:12:43,894 INFO: ABIERTA: GBPUSD.sml BUY lote 0.01 ticket 31124639
-2025-11-18 11:12:44,738 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31124640
-2025-11-18 11:46:46,412 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31127749
-2025-11-18 11:46:47,190 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31127750
-2025-11-18 12:10:48,036 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31129481
-2025-11-18 12:10:48,946 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31129484
-2025-11-18 12:14:49,773 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31129864
-2025-11-18 12:14:50,586 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31129865
-2025-11-18 12:29:52,298 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31132240
-2025-11-18 12:29:53,109 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31132242
-2025-11-18 12:35:53,885 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31132714
-2025-11-18 12:35:54,682 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31132718
-2025-11-18 12:42:55,534 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31133330
-2025-11-18 12:42:56,311 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31133331
-2025-11-18 12:45:57,075 INFO: ABIERTA: EURUSD.sml BUY lote 0.01 ticket 31133541
-2025-11-18 12:45:57,847 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31133542
-2025-11-18 13:01:58,700 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31134438
-2025-11-18 13:01:59,539 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31134439
-2025-11-18 13:11:01,013 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31134803
-2025-11-18 13:11:02,048 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31134810
-2025-11-18 13:15:02,933 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31135007
-2025-11-18 13:15:03,853 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135009
-2025-11-18 13:24:05,721 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135398
-2025-11-18 13:24:06,551 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31135399
-2025-11-18 13:30:07,547 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135546
-2025-11-18 13:30:08,405 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31135548
-2025-11-18 13:36:09,229 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31135643
-2025-11-18 13:36:10,062 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135644
-2025-11-18 13:44:10,991 INFO: ABIERTA: EURUSD.sml SELL lote 0.01 ticket 31135790
-2025-11-18 13:44:11,952 INFO: ABIERTA: GBPUSD.sml SELL lote 0.01 ticket 31135791
-2025-11-18 13:44:13,401 INFO: ABIERTA: USDJPY.sml SELL lote 0.01 ticket 31135792
-2025-11-18 14:36:27,102 INFO: BOT DETENIDO POR TI (Ctrl+C) - ¡Hasta la próxima!
-2025-11-18 14:36:27,102 INFO: MARK2 PRO DETENIDO CORRECTAMENTE - Solo tú puedes pararme
-2025-11-18 14:36:31,526 INFO: MARK2 PRO ÓPTIMO INICIADO | Balance: $10026.73 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 14:36:31,526 INFO: ================================================================================
-2025-11-18 14:39:26,304 INFO: BOT DETENIDO POR TI
-2025-11-18 14:39:26,304 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
-2025-11-18 14:39:28,816 INFO: MARK2 PRO ÓPTIMO INICIADO | Balance: $10026.73 | Pares: EURUSD.sml, GBPUSD.sml, USDJPY.sml
-2025-11-18 14:39:28,816 INFO: ================================================================================
+2025-11-19 09:09:41,666 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml
+2025-11-19 09:09:41,666 INFO: ================================================================================
+2025-11-19 10:29:39,744 INFO: BOT DETENIDO POR TI
+2025-11-19 10:29:39,744 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-19 10:29:43,604 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml, AUDUSD.sml
+2025-11-19 10:29:43,605 INFO: ================================================================================
+2025-11-19 13:09:15,377 WARNING: Error Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5)
+2025-11-19 15:18:22,670 WARNING: Error Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8240697830:AAF4AOEgYcE4U-4A7i9YGW7xASSOkpTKRs8/getUpdates (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001EBDBB92E50>, 'Connection to api.telegram.org timed out. (connect timeout=5)'))
+2025-11-19 15:18:32,693 WARNING: Error Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8240697830:AAF4AOEgYcE4U-4A7i9YGW7xASSOkpTKRs8/getUpdates (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001EBDD1133D0>, 'Connection to api.telegram.org timed out. (connect timeout=5)'))
+2025-11-19 15:58:07,987 WARNING: Error Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8240697830:AAF4AOEgYcE4U-4A7i9YGW7xASSOkpTKRs8/getUpdates (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EBDD241F10>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2025-11-19 16:02:01,505 INFO: BOT DETENIDO POR TI
+2025-11-19 16:02:01,505 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-19 16:02:04,124 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml, AUDUSD.sml
+2025-11-19 16:02:04,125 INFO: ================================================================================
+2025-11-19 16:04:31,852 INFO: BOT DETENIDO POR TI
+2025-11-19 16:04:31,852 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-20 09:33:41,472 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml
+2025-11-20 09:33:41,472 INFO: ================================================================================
+2025-11-20 10:27:08,468 INFO: BOT DETENIDO POR TI
+2025-11-20 10:27:08,468 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-20 10:27:10,952 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml
+2025-11-20 10:27:10,952 INFO: ================================================================================
+2025-11-20 16:54:58,084 INFO: BOT DETENIDO POR TI
+2025-11-20 16:54:58,084 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-21 08:49:33,528 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml
+2025-11-21 08:49:33,528 INFO: ================================================================================
+2025-11-21 08:50:57,750 INFO: BOT DETENIDO POR TI
+2025-11-21 08:50:57,750 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-21 08:51:52,492 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml
+2025-11-21 08:51:52,492 INFO: ================================================================================
+2025-11-21 09:20:04,622 WARNING: Error Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8240697830:AAF4AOEgYcE4U-4A7i9YGW7xASSOkpTKRs8/getUpdates (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000024515ADA590>, 'Connection to api.telegram.org timed out. (connect timeout=5)'))
+2025-11-21 09:36:59,841 INFO: BOT DETENIDO POR TI
+2025-11-21 09:36:59,841 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-21 09:37:02,739 INFO: MARK2 PRO INICIADO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml
+2025-11-21 09:37:02,739 INFO: ================================================================================
+2025-11-21 09:43:45,108 INFO: BOT DETENIDO POR TI
+2025-11-21 09:43:45,108 INFO: MARK2 PRO DETENIDO CORRECTAMENTE
+2025-11-21 09:44:29,792 INFO: MARK2 INMORTAL INICIADO
+2025-11-21 09:45:58,887 INFO: Bot detenido manualmente
+2025-11-21 09:45:58,887 INFO: MARK2 DETENIDO
+2025-11-21 09:46:01,223 INFO: MARK2 INMORTAL INICIADO
+2025-11-21 09:46:01,237 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 40 pips | TP: 65 pips | Risk: 1.0%
+2025-11-21 09:52:31,808 INFO: Detenido manualmente
+2025-11-21 09:52:31,808 INFO: MARK2 DETENIDO
+2025-11-21 09:52:35,154 INFO: MARK2 INMORTAL INICIADO
+2025-11-21 09:52:35,168 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 40 pips | TP: 65 pips | Risk: 1.0%
+2025-11-21 16:42:35,606 INFO: Detenido manualmente
+2025-11-21 16:42:35,607 INFO: MARK2 DETENIDO
+2025-11-21 16:42:41,376 INFO: MARK2 INMORTAL INICIADO
+2025-11-21 16:42:41,396 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 35 pips | TP: 65 pips | Risk: 1.0%
+2025-11-24 09:55:13,058 INFO: MARK2 INMORTAL INICIADO
+2025-11-24 09:55:16,478 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 35 pips | TP: 65 pips | Risk: 1.0%
+2025-11-25 09:32:09,363 INFO: MARK2 INMORTAL INICIADO
+2025-11-25 09:32:11,814 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 35 pips | TP: 65 pips | Risk: 1.0%
+2025-11-25 10:09:22,673 INFO: Detenido manualmente
+2025-11-25 10:09:22,673 INFO: MARK2 DETENIDO
+2025-11-25 10:09:25,396 INFO: MARK2 INMORTAL INICIADO
+2025-11-25 10:09:25,410 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 30 pips | TP: 55 pips | Risk: 1.0%
+2025-11-25 10:27:05,391 INFO: Detenido manualmente
+2025-11-25 10:27:05,391 INFO: MARK2 DETENIDO
+2025-11-25 10:27:09,488 INFO: MARK2 INMORTAL INICIADO
+2025-11-25 10:27:09,504 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD.sml, GBPUSD.sml | SL: 30 pips | TP: 55 pips | Risk: 1.0%
+2025-11-25 10:27:10,203 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:10,203 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:20,204 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:20,204 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:30,206 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:30,206 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:40,207 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:40,207 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:50,208 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:27:50,209 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:28:00,209 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:28:00,209 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:28:10,210 WARNING: EURUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:28:10,211 WARNING: GBPUSD.sml no está seleccionado en Market Watch
+2025-11-25 10:28:11,888 INFO: Detenido manualmente
+2025-11-25 10:28:11,889 INFO: MARK2 DETENIDO
+2025-11-25 10:39:59,192 INFO: MARK2 INMORTAL INICIADO
+2025-11-25 10:39:59,209 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD, GBPUSD | SL: 30 pips | TP: 55 pips | Risk: 1.0%
+2025-11-25 10:39:59,992 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15781 Ask 1.15781 | Romperá con 0.4 pips
+2025-11-25 10:39:59,992 INFO: SEÑAL SELL EURUSD → bid 1.15781 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:40:00,140 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31903 Ask 1.31903 | Romperá con 0.4 pips
+2025-11-25 10:40:00,140 INFO: SEÑAL SELL GBPUSD → bid 1.31903 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:40:10,142 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15774 Ask 1.15774 | Romperá con 0.4 pips
+2025-11-25 10:40:10,143 INFO: SEÑAL SELL EURUSD → bid 1.15774 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:40:10,145 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31888 Ask 1.31888 | Romperá con 0.4 pips
+2025-11-25 10:40:10,145 INFO: SEÑAL SELL GBPUSD → bid 1.31888 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:40:20,148 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15779 Ask 1.15779 | Romperá con 0.4 pips
+2025-11-25 10:40:20,149 INFO: SEÑAL SELL EURUSD → bid 1.15779 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:40:20,150 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31895 Ask 1.31895 | Romperá con 0.4 pips
+2025-11-25 10:40:20,150 INFO: SEÑAL SELL GBPUSD → bid 1.31895 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:40:30,152 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15777 Ask 1.15777 | Romperá con 0.4 pips
+2025-11-25 10:40:30,152 INFO: SEÑAL SELL EURUSD → bid 1.15777 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:40:30,153 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31891 Ask 1.31891 | Romperá con 0.4 pips
+2025-11-25 10:40:30,155 INFO: SEÑAL SELL GBPUSD → bid 1.31891 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:40:40,156 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15779 Ask 1.15779 | Romperá con 0.4 pips
+2025-11-25 10:40:40,156 INFO: SEÑAL SELL EURUSD → bid 1.15779 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:40:40,158 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31890 Ask 1.31890 | Romperá con 0.4 pips
+2025-11-25 10:40:40,159 INFO: SEÑAL SELL GBPUSD → bid 1.31890 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:40:50,162 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15771 Ask 1.15771 | Romperá con 0.4 pips
+2025-11-25 10:40:50,162 INFO: SEÑAL SELL EURUSD → bid 1.15771 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:40:50,163 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31885 Ask 1.31885 | Romperá con 0.4 pips
+2025-11-25 10:40:50,164 INFO: SEÑAL SELL GBPUSD → bid 1.31885 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:41:00,166 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15767 Ask 1.15767 | Romperá con 0.4 pips
+2025-11-25 10:41:00,166 INFO: SEÑAL SELL EURUSD → bid 1.15767 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:41:00,168 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31882 Ask 1.31882 | Romperá con 0.4 pips
+2025-11-25 10:41:00,169 INFO: SEÑAL SELL GBPUSD → bid 1.31882 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:41:10,171 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15767 Ask 1.15767 | Romperá con 0.4 pips
+2025-11-25 10:41:10,172 INFO: SEÑAL SELL EURUSD → bid 1.15767 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:41:10,173 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31879 Ask 1.31879 | Romperá con 0.4 pips
+2025-11-25 10:41:10,173 INFO: SEÑAL SELL GBPUSD → bid 1.31879 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:41:20,176 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15766 Ask 1.15766 | Romperá con 0.4 pips
+2025-11-25 10:41:20,176 INFO: SEÑAL SELL EURUSD → bid 1.15766 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:41:20,179 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31878 Ask 1.31878 | Romperá con 0.4 pips
+2025-11-25 10:41:20,179 INFO: SEÑAL SELL GBPUSD → bid 1.31878 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:41:30,181 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15768 Ask 1.15768 | Romperá con 0.4 pips
+2025-11-25 10:41:30,181 INFO: SEÑAL SELL EURUSD → bid 1.15768 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:41:30,183 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31879 Ask 1.31879 | Romperá con 0.4 pips
+2025-11-25 10:41:30,183 INFO: SEÑAL SELL GBPUSD → bid 1.31879 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:41:40,185 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15761 Ask 1.15761 | Romperá con 0.4 pips
+2025-11-25 10:41:40,186 INFO: SEÑAL SELL EURUSD → bid 1.15761 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:41:40,188 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31862 Ask 1.31862 | Romperá con 0.4 pips
+2025-11-25 10:41:40,188 INFO: SEÑAL SELL GBPUSD → bid 1.31862 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:41:50,191 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15762 Ask 1.15762 | Romperá con 0.4 pips
+2025-11-25 10:41:50,191 INFO: SEÑAL SELL EURUSD → bid 1.15762 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:41:50,192 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31862 Ask 1.31862 | Romperá con 0.4 pips
+2025-11-25 10:41:50,193 INFO: SEÑAL SELL GBPUSD → bid 1.31862 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:42:00,195 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15765 Ask 1.15765 | Romperá con 0.4 pips
+2025-11-25 10:42:00,195 INFO: SEÑAL SELL EURUSD → bid 1.15765 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:42:00,197 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31870 Ask 1.31870 | Romperá con 0.4 pips
+2025-11-25 10:42:00,197 INFO: SEÑAL SELL GBPUSD → bid 1.31870 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:42:10,200 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15757 Ask 1.15757 | Romperá con 0.4 pips
+2025-11-25 10:42:10,200 INFO: SEÑAL SELL EURUSD → bid 1.15757 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:42:10,202 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31862 Ask 1.31862 | Romperá con 0.4 pips
+2025-11-25 10:42:10,202 INFO: SEÑAL SELL GBPUSD → bid 1.31862 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:42:20,204 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15753 Ask 1.15753 | Romperá con 0.4 pips
+2025-11-25 10:42:20,205 INFO: SEÑAL SELL EURUSD → bid 1.15753 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:42:20,206 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31868 Ask 1.31868 | Romperá con 0.4 pips
+2025-11-25 10:42:20,206 INFO: SEÑAL SELL GBPUSD → bid 1.31868 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:42:30,209 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15757 Ask 1.15757 | Romperá con 0.4 pips
+2025-11-25 10:42:30,209 INFO: SEÑAL SELL EURUSD → bid 1.15757 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:42:30,210 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31867 Ask 1.31867 | Romperá con 0.4 pips
+2025-11-25 10:42:30,211 INFO: SEÑAL SELL GBPUSD → bid 1.31867 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:42:40,214 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15757 Ask 1.15757 | Romperá con 0.4 pips
+2025-11-25 10:42:40,214 INFO: SEÑAL SELL EURUSD → bid 1.15757 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:42:40,216 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31859 Ask 1.31859 | Romperá con 0.4 pips
+2025-11-25 10:42:40,216 INFO: SEÑAL SELL GBPUSD → bid 1.31859 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:42:50,218 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15747 Ask 1.15747 | Romperá con 0.4 pips
+2025-11-25 10:42:50,219 INFO: SEÑAL SELL EURUSD → bid 1.15747 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:42:50,220 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31838 Ask 1.31838 | Romperá con 0.4 pips
+2025-11-25 10:42:50,220 INFO: SEÑAL SELL GBPUSD → bid 1.31838 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:43:00,222 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15751 Ask 1.15751 | Romperá con 0.4 pips
+2025-11-25 10:43:00,223 INFO: SEÑAL SELL EURUSD → bid 1.15751 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:43:00,225 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31838 Ask 1.31838 | Romperá con 0.4 pips
+2025-11-25 10:43:00,225 INFO: SEÑAL SELL GBPUSD → bid 1.31838 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:43:10,228 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15752 Ask 1.15752 | Romperá con 0.4 pips
+2025-11-25 10:43:10,229 INFO: SEÑAL SELL EURUSD → bid 1.15752 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:43:10,231 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31835 Ask 1.31835 | Romperá con 0.4 pips
+2025-11-25 10:43:10,231 INFO: SEÑAL SELL GBPUSD → bid 1.31835 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:43:20,233 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15753 Ask 1.15753 | Romperá con 0.4 pips
+2025-11-25 10:43:20,233 INFO: SEÑAL SELL EURUSD → bid 1.15753 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:43:20,235 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31837 Ask 1.31837 | Romperá con 0.4 pips
+2025-11-25 10:43:20,235 INFO: SEÑAL SELL GBPUSD → bid 1.31837 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:43:30,238 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15751 Ask 1.15751 | Romperá con 0.4 pips
+2025-11-25 10:43:30,239 INFO: SEÑAL SELL EURUSD → bid 1.15751 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:43:30,241 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31837 Ask 1.31837 | Romperá con 0.4 pips
+2025-11-25 10:43:30,241 INFO: SEÑAL SELL GBPUSD → bid 1.31837 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:43:36,058 INFO: Detenido manualmente
+2025-11-25 10:43:36,058 INFO: MARK2 DETENIDO
+2025-11-25 10:43:40,792 INFO: MARK2 INMORTAL INICIADO
+2025-11-25 10:43:40,809 INFO: Conectado a MT5 correctamente
+2025-11-25 10:43:40,809 INFO: MARK2 ACTIVO | Balance: $150.00 | Pares: EURUSD, GBPUSD | SL: 30 pips | TP: 55 pips | Risk: 1.0%
+2025-11-25 10:43:41,612 INFO: DEBUG EURUSD → Vela anterior High 1.15800 Low 1.15702 | Bid 1.15748 Ask 1.15748 | Romperá con 0.4 pips
+2025-11-25 10:43:41,613 INFO: SEÑAL SELL EURUSD → bid 1.15748 ≥ 1.15702 (rompe +0.4 pips)
+2025-11-25 10:43:41,749 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15748 | Ticket: 870179900
+2025-11-25 10:43:42,443 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870179900
+2025-11-25 10:43:42,445 INFO: DEBUG GBPUSD → Vela anterior High 1.31881 Low 1.31769 | Bid 1.31837 Ask 1.31837 | Romperá con 0.4 pips
+2025-11-25 10:43:42,445 INFO: SEÑAL SELL GBPUSD → bid 1.31837 ≥ 1.31769 (rompe +0.4 pips)
+2025-11-25 10:43:42,572 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31837 | Ticket: 870179905
+2025-11-25 10:43:43,245 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870179905
+2025-11-25 10:46:13,254 INFO: DEBUG EURUSD → Vela anterior High 1.15841 Low 1.15726 | Bid 1.15694 Ask 1.15694 | Romperá con 0.4 pips
+2025-11-25 10:46:13,254 INFO: SEÑAL BUY EURUSD → ask 1.15694 ≤ 1.15841 (rompe +0.4 pips)
+2025-11-25 10:46:13,373 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15694 | Ticket: 870181828
+2025-11-25 10:46:14,055 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870181828
+2025-11-25 10:47:24,071 INFO: DEBUG GBPUSD → Vela anterior High 1.31959 Low 1.31828 | Bid 1.31783 Ask 1.31783 | Romperá con 0.4 pips
+2025-11-25 10:47:24,072 INFO: SEÑAL BUY GBPUSD → ask 1.31783 ≤ 1.31959 (rompe +0.4 pips)
+2025-11-25 10:47:24,215 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31783 | Ticket: 870182557
+2025-11-25 10:47:24,930 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870182557
+2025-11-25 10:51:14,949 INFO: DEBUG EURUSD → Vela anterior High 1.15841 Low 1.15726 | Bid 1.15662 Ask 1.15662 | Romperá con 0.4 pips
+2025-11-25 10:51:14,950 INFO: SEÑAL BUY EURUSD → ask 1.15662 ≤ 1.15841 (rompe +0.4 pips)
+2025-11-25 10:51:15,099 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15662 | Ticket: 870186358
+2025-11-25 10:51:15,809 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870186358
+2025-11-25 10:51:15,811 INFO: DEBUG GBPUSD → Vela anterior High 1.31959 Low 1.31828 | Bid 1.31750 Ask 1.31750 | Romperá con 0.4 pips
+2025-11-25 10:51:15,812 INFO: SEÑAL BUY GBPUSD → ask 1.31750 ≤ 1.31959 (rompe +0.4 pips)
+2025-11-25 10:51:15,941 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31750 | Ticket: 870186384
+2025-11-25 10:51:16,628 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870186384
+2025-11-25 10:57:26,651 INFO: DEBUG GBPUSD → Vela anterior High 1.31959 Low 1.31828 | Bid 1.31815 Ask 1.31815 | Romperá con 0.4 pips
+2025-11-25 10:57:26,651 INFO: SEÑAL BUY GBPUSD → ask 1.31815 ≤ 1.31959 (rompe +0.4 pips)
+2025-11-25 10:57:26,774 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31815 | Ticket: 870193156
+2025-11-25 10:57:27,456 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870193156
+2025-11-25 10:57:37,458 INFO: DEBUG GBPUSD → Vela anterior High 1.31959 Low 1.31828 | Bid 1.31766 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 10:57:37,458 INFO: SEÑAL BUY GBPUSD → ask 1.31766 ≤ 1.31959 (rompe +0.4 pips)
+2025-11-25 10:57:37,605 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31766 | Ticket: 870193335
+2025-11-25 10:57:38,307 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870193335
+2025-11-25 10:57:58,315 INFO: DEBUG EURUSD → Vela anterior High 1.15841 Low 1.15726 | Bid 1.15634 Ask 1.15634 | Romperá con 0.4 pips
+2025-11-25 10:57:58,316 INFO: SEÑAL BUY EURUSD → ask 1.15634 ≤ 1.15841 (rompe +0.4 pips)
+2025-11-25 10:57:58,447 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15634 | Ticket: 870193597
+2025-11-25 10:58:00,120 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870193597
+2025-11-25 11:09:50,167 INFO: DEBUG GBPUSD → Vela anterior High 1.31854 Low 1.31737 | Bid 1.31820 Ask 1.31820 | Romperá con 0.4 pips
+2025-11-25 11:09:50,167 INFO: SEÑAL SELL GBPUSD → bid 1.31820 ≥ 1.31737 (rompe +0.4 pips)
+2025-11-25 11:09:50,294 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31820 | Ticket: 870203551
+2025-11-25 11:09:51,047 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870203551
+2025-11-25 11:15:21,072 INFO: DEBUG EURUSD → Vela anterior High 1.15687 Low 1.15612 | Bid 1.15688 Ask 1.15688 | Romperá con 0.4 pips
+2025-11-25 11:15:21,072 INFO: SEÑAL SELL EURUSD → bid 1.15688 ≥ 1.15612 (rompe +0.4 pips)
+2025-11-25 11:15:21,203 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15688 | Ticket: 870209771
+2025-11-25 11:15:21,954 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870209771
+2025-11-25 11:20:51,978 INFO: DEBUG GBPUSD → Vela anterior High 1.31838 Low 1.31755 | Bid 1.31849 Ask 1.31849 | Romperá con 0.4 pips
+2025-11-25 11:20:51,979 INFO: SEÑAL SELL GBPUSD → bid 1.31849 ≥ 1.31755 (rompe +0.4 pips)
+2025-11-25 11:20:52,122 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31849 | Ticket: 870217632
+2025-11-25 11:20:52,798 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870217632
+2025-11-25 11:21:22,803 INFO: DEBUG EURUSD → Vela anterior High 1.15687 Low 1.15612 | Bid 1.15719 Ask 1.15719 | Romperá con 0.4 pips
+2025-11-25 11:21:22,804 INFO: SEÑAL SELL EURUSD → bid 1.15719 ≥ 1.15612 (rompe +0.4 pips)
+2025-11-25 11:21:22,937 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15719 | Ticket: 870218342
+2025-11-25 11:21:23,630 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870218342
+2025-11-25 11:28:33,662 INFO: DEBUG EURUSD → Vela anterior High 1.15687 Low 1.15612 | Bid 1.15667 Ask 1.15667 | Romperá con 0.4 pips
+2025-11-25 11:28:33,662 INFO: SEÑAL SELL EURUSD → bid 1.15667 ≥ 1.15612 (rompe +0.4 pips)
+2025-11-25 11:28:33,790 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15667 | Ticket: 870226737
+2025-11-25 11:28:35,613 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870226737
+2025-11-25 11:34:05,633 INFO: DEBUG GBPUSD → Vela anterior High 1.31859 Low 1.31826 | Bid 1.31788 Ask 1.31788 | Romperá con 0.4 pips
+2025-11-25 11:34:05,633 INFO: SEÑAL BUY GBPUSD → ask 1.31788 ≤ 1.31859 (rompe +0.4 pips)
+2025-11-25 11:34:05,770 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31788 | Ticket: 870230260
+2025-11-25 11:34:06,498 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870230260
+2025-11-25 11:34:26,502 INFO: DEBUG EURUSD → Vela anterior High 1.15719 Low 1.15664 | Bid 1.15611 Ask 1.15611 | Romperá con 0.4 pips
+2025-11-25 11:34:26,503 INFO: SEÑAL BUY EURUSD → ask 1.15611 ≤ 1.15719 (rompe +0.4 pips)
+2025-11-25 11:34:26,650 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15611 | Ticket: 870230507
+2025-11-25 11:34:27,515 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870230507
+2025-11-25 11:39:07,533 INFO: DEBUG EURUSD → Vela anterior High 1.15719 Low 1.15664 | Bid 1.15581 Ask 1.15581 | Romperá con 0.4 pips
+2025-11-25 11:39:07,534 INFO: SEÑAL BUY EURUSD → ask 1.15581 ≤ 1.15719 (rompe +0.4 pips)
+2025-11-25 11:39:07,656 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15581 | Ticket: 870233011
+2025-11-25 11:39:09,390 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870233011
+2025-11-25 11:39:29,394 INFO: DEBUG GBPUSD → Vela anterior High 1.31859 Low 1.31826 | Bid 1.31763 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 11:39:29,394 INFO: SEÑAL BUY GBPUSD → ask 1.31763 ≤ 1.31859 (rompe +0.4 pips)
+2025-11-25 11:39:30,145 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31763 | Ticket: 870233165
+2025-11-25 11:39:30,833 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870233165
+2025-11-25 11:54:00,883 INFO: DEBUG EURUSD → Vela anterior High 1.15669 Low 1.15560 | Bid 1.15551 Ask 1.15551 | Romperá con 0.4 pips
+2025-11-25 11:54:00,883 INFO: SEÑAL BUY EURUSD → ask 1.15551 ≤ 1.15669 (rompe +0.4 pips)
+2025-11-25 11:54:01,043 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15551 | Ticket: 870240506
+2025-11-25 11:54:01,762 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870240506
+2025-11-25 11:57:31,775 INFO: DEBUG EURUSD → Vela anterior High 1.15669 Low 1.15560 | Bid 1.15518 Ask 1.15518 | Romperá con 0.4 pips
+2025-11-25 11:57:31,775 INFO: SEÑAL BUY EURUSD → ask 1.15518 ≤ 1.15669 (rompe +0.4 pips)
+2025-11-25 11:57:31,909 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15518 | Ticket: 870241844
+2025-11-25 11:57:32,661 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870241844
+2025-11-25 11:58:12,664 INFO: DEBUG GBPUSD → Vela anterior High 1.31840 Low 1.31758 | Bid 1.31731 Ask 1.31731 | Romperá con 0.4 pips
+2025-11-25 11:58:12,665 INFO: SEÑAL BUY GBPUSD → ask 1.31731 ≤ 1.31840 (rompe +0.4 pips)
+2025-11-25 11:58:12,792 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31731 | Ticket: 870242209
+2025-11-25 11:58:13,566 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870242209
+2025-11-25 12:00:23,575 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15715 Ask 1.15715 | Romperá con 0.4 pips
+2025-11-25 12:00:23,575 INFO: SEÑAL SELL EURUSD → bid 1.15715 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:00:23,736 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15715 | Ticket: 870245357
+2025-11-25 12:00:24,577 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870245357
+2025-11-25 12:00:24,580 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31938 Ask 1.31938 | Romperá con 0.4 pips
+2025-11-25 12:00:24,580 INFO: SEÑAL SELL GBPUSD → bid 1.31938 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:00:24,738 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31938 | Ticket: 870245464
+2025-11-25 12:00:25,496 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870245464
+2025-11-25 12:00:35,499 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15662 Ask 1.15662 | Romperá con 0.4 pips
+2025-11-25 12:00:35,499 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:00:35,643 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15662 | Ticket: 870246015
+2025-11-25 12:00:36,384 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870246015
+2025-11-25 12:00:36,386 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31878 Ask 1.31878 | Romperá con 0.4 pips
+2025-11-25 12:00:36,386 INFO: SEÑAL SELL GBPUSD → bid 1.31878 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:00:36,517 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31878 | Ticket: 870246033
+2025-11-25 12:00:37,250 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870246033
+2025-11-25 12:01:27,254 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15610 Ask 1.15610 | Romperá con 0.4 pips
+2025-11-25 12:01:27,254 INFO: SEÑAL SELL EURUSD → bid 1.15610 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:01:27,386 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15610 | Ticket: 870247453
+2025-11-25 12:01:28,141 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870247453
+2025-11-25 12:01:28,142 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31801 Ask 1.31801 | Romperá con 0.4 pips
+2025-11-25 12:01:28,142 INFO: SEÑAL SELL GBPUSD → bid 1.31801 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:01:28,306 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31801 | Ticket: 870247520
+2025-11-25 12:01:29,035 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870247520
+2025-11-25 12:02:19,041 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15642 Ask 1.15642 | Romperá con 0.4 pips
+2025-11-25 12:02:19,041 INFO: SEÑAL SELL EURUSD → bid 1.15642 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:02:19,176 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15642 | Ticket: 870248787
+2025-11-25 12:02:20,082 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870248787
+2025-11-25 12:03:00,086 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15581 Ask 1.15581 | Romperá con 0.4 pips
+2025-11-25 12:03:00,086 INFO: SEÑAL SELL EURUSD → bid 1.15581 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:03:00,223 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15581 | Ticket: 870249921
+2025-11-25 12:03:01,145 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870249921
+2025-11-25 12:03:51,149 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15613 Ask 1.15613 | Romperá con 0.4 pips
+2025-11-25 12:03:51,150 INFO: SEÑAL SELL EURUSD → bid 1.15613 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:03:51,310 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15613 | Ticket: 870251015
+2025-11-25 12:03:52,217 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870251015
+2025-11-25 12:04:32,221 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15640 Ask 1.15640 | Romperá con 0.4 pips
+2025-11-25 12:04:32,221 INFO: SEÑAL SELL EURUSD → bid 1.15640 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:04:32,370 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15640 | Ticket: 870251815
+2025-11-25 12:04:33,332 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870251815
+2025-11-25 12:04:33,334 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31836 Ask 1.31836 | Romperá con 0.4 pips
+2025-11-25 12:04:33,334 INFO: SEÑAL SELL GBPUSD → bid 1.31836 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:04:33,472 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31836 | Ticket: 870251834
+2025-11-25 12:04:34,256 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870251834
+2025-11-25 12:05:14,261 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31874 Ask 1.31874 | Romperá con 0.4 pips
+2025-11-25 12:05:14,261 INFO: SEÑAL SELL GBPUSD → bid 1.31874 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:05:14,388 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31874 | Ticket: 870252588
+2025-11-25 12:05:15,587 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870252588
+2025-11-25 12:05:25,590 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15669 Ask 1.15669 | Romperá con 0.4 pips
+2025-11-25 12:05:25,591 INFO: SEÑAL SELL EURUSD → bid 1.15669 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:05:25,742 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15669 | Ticket: 870252776
+2025-11-25 12:05:27,523 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870252776
+2025-11-25 12:05:57,527 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15616 Ask 1.15616 | Romperá con 0.4 pips
+2025-11-25 12:05:57,527 INFO: SEÑAL SELL EURUSD → bid 1.15616 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:05:57,670 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15616 | Ticket: 870253337
+2025-11-25 12:05:58,417 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870253337
+2025-11-25 12:05:58,420 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31828 Ask 1.31828 | Romperá con 0.4 pips
+2025-11-25 12:05:58,420 INFO: SEÑAL SELL GBPUSD → bid 1.31828 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:05:58,558 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31828 | Ticket: 870253350
+2025-11-25 12:05:59,329 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870253350
+2025-11-25 12:07:19,335 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15647 Ask 1.15647 | Romperá con 0.4 pips
+2025-11-25 12:07:19,335 INFO: SEÑAL SELL EURUSD → bid 1.15647 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:07:19,484 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15647 | Ticket: 870254355
+2025-11-25 12:07:20,300 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870254355
+2025-11-25 12:07:20,303 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31875 Ask 1.31875 | Romperá con 0.4 pips
+2025-11-25 12:07:20,303 INFO: SEÑAL SELL GBPUSD → bid 1.31875 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:07:20,455 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31875 | Ticket: 870254375
+2025-11-25 12:07:22,225 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870254375
+2025-11-25 12:08:12,230 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31838 Ask 1.31838 | Romperá con 0.4 pips
+2025-11-25 12:08:12,231 INFO: SEÑAL SELL GBPUSD → bid 1.31838 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:08:12,386 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31838 | Ticket: 870255008
+2025-11-25 12:08:13,389 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870255008
+2025-11-25 12:09:23,395 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31870 Ask 1.31870 | Romperá con 0.4 pips
+2025-11-25 12:09:23,395 INFO: SEÑAL SELL GBPUSD → bid 1.31870 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:09:23,539 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31870 | Ticket: 870255721
+2025-11-25 12:09:24,235 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870255721
+2025-11-25 12:11:44,244 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15690 Ask 1.15690 | Romperá con 0.4 pips
+2025-11-25 12:11:44,244 INFO: SEÑAL SELL EURUSD → bid 1.15690 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:11:44,396 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15690 | Ticket: 870258629
+2025-11-25 12:11:45,090 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870258629
+2025-11-25 12:12:45,094 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31900 Ask 1.31900 | Romperá con 0.4 pips
+2025-11-25 12:12:45,094 INFO: SEÑAL SELL GBPUSD → bid 1.31900 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:12:45,234 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31900 | Ticket: 870259806
+2025-11-25 12:12:45,926 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870259806
+2025-11-25 12:14:45,935 INFO: DEBUG EURUSD → Vela anterior High 1.15586 Low 1.15499 | Bid 1.15637 Ask 1.15637 | Romperá con 0.4 pips
+2025-11-25 12:14:45,935 INFO: SEÑAL SELL EURUSD → bid 1.15637 ≥ 1.15499 (rompe +0.4 pips)
+2025-11-25 12:14:46,067 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15637 | Ticket: 870261355
+2025-11-25 12:14:46,705 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870261355
+2025-11-25 12:14:46,707 INFO: DEBUG GBPUSD → Vela anterior High 1.31782 Low 1.31712 | Bid 1.31840 Ask 1.31840 | Romperá con 0.4 pips
+2025-11-25 12:14:46,707 INFO: SEÑAL SELL GBPUSD → bid 1.31840 ≥ 1.31712 (rompe +0.4 pips)
+2025-11-25 12:14:46,852 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31840 | Ticket: 870261374
+2025-11-25 12:14:48,555 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870261374
+2025-11-25 12:16:58,564 INFO: DEBUG EURUSD → Vela anterior High 1.15743 Low 1.15523 | Bid 1.15670 Ask 1.15670 | Romperá con 0.4 pips
+2025-11-25 12:16:58,564 INFO: SEÑAL SELL EURUSD → bid 1.15670 ≥ 1.15523 (rompe +0.4 pips)
+2025-11-25 12:16:58,718 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15670 | Ticket: 870263182
+2025-11-25 12:16:59,562 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870263182
+2025-11-25 12:16:59,563 INFO: DEBUG GBPUSD → Vela anterior High 1.31961 Low 1.31717 | Bid 1.31878 Ask 1.31878 | Romperá con 0.4 pips
+2025-11-25 12:16:59,563 INFO: SEÑAL SELL GBPUSD → bid 1.31878 ≥ 1.31717 (rompe +0.4 pips)
+2025-11-25 12:16:59,707 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31878 | Ticket: 870263195
+2025-11-25 12:17:00,417 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870263195
+2025-11-25 12:19:00,424 INFO: DEBUG EURUSD → Vela anterior High 1.15743 Low 1.15523 | Bid 1.15704 Ask 1.15704 | Romperá con 0.4 pips
+2025-11-25 12:19:00,425 INFO: SEÑAL SELL EURUSD → bid 1.15704 ≥ 1.15523 (rompe +0.4 pips)
+2025-11-25 12:19:00,552 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15704 | Ticket: 870264887
+2025-11-25 12:19:01,281 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870264887
+2025-11-25 12:19:11,283 INFO: DEBUG GBPUSD → Vela anterior High 1.31961 Low 1.31717 | Bid 1.31908 Ask 1.31908 | Romperá con 0.4 pips
+2025-11-25 12:19:11,284 INFO: SEÑAL SELL GBPUSD → bid 1.31908 ≥ 1.31717 (rompe +0.4 pips)
+2025-11-25 12:19:11,438 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31908 | Ticket: 870265041
+2025-11-25 12:19:12,232 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870265041
+2025-11-25 12:20:42,239 INFO: DEBUG GBPUSD → Vela anterior High 1.31961 Low 1.31717 | Bid 1.31939 Ask 1.31939 | Romperá con 0.4 pips
+2025-11-25 12:20:42,239 INFO: SEÑAL SELL GBPUSD → bid 1.31939 ≥ 1.31717 (rompe +0.4 pips)
+2025-11-25 12:20:42,378 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31939 | Ticket: 870266190
+2025-11-25 12:20:43,089 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870266190
+2025-11-25 12:21:23,093 INFO: DEBUG EURUSD → Vela anterior High 1.15743 Low 1.15523 | Bid 1.15735 Ask 1.15735 | Romperá con 0.4 pips
+2025-11-25 12:21:23,093 INFO: SEÑAL SELL EURUSD → bid 1.15735 ≥ 1.15523 (rompe +0.4 pips)
+2025-11-25 12:21:23,227 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15735 | Ticket: 870266644
+2025-11-25 12:21:23,966 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870266644
+2025-11-25 12:22:33,971 INFO: DEBUG GBPUSD → Vela anterior High 1.31961 Low 1.31717 | Bid 1.31969 Ask 1.31969 | Romperá con 0.4 pips
+2025-11-25 12:22:33,971 INFO: SEÑAL SELL GBPUSD → bid 1.31969 ≥ 1.31717 (rompe +0.4 pips)
+2025-11-25 12:22:34,114 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31969 | Ticket: 870267661
+2025-11-25 12:22:34,807 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870267661
+2025-11-25 12:23:34,812 INFO: DEBUG EURUSD → Vela anterior High 1.15743 Low 1.15523 | Bid 1.15765 Ask 1.15765 | Romperá con 0.4 pips
+2025-11-25 12:23:34,812 INFO: SEÑAL SELL EURUSD → bid 1.15765 ≥ 1.15523 (rompe +0.4 pips)
+2025-11-25 12:23:34,949 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15765 | Ticket: 870268788
+2025-11-25 12:23:35,622 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870268788
+2025-11-25 12:24:45,627 INFO: DEBUG GBPUSD → Vela anterior High 1.31961 Low 1.31717 | Bid 1.32001 Ask 1.32001 | Romperá con 0.4 pips
+2025-11-25 12:24:45,628 INFO: SEÑAL SELL GBPUSD → bid 1.32001 ≥ 1.31717 (rompe +0.4 pips)
+2025-11-25 12:24:45,786 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32001 | Ticket: 870269928
+2025-11-25 12:24:46,471 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870269928
+2025-11-25 12:25:26,475 INFO: DEBUG EURUSD → Vela anterior High 1.15743 Low 1.15523 | Bid 1.15796 Ask 1.15796 | Romperá con 0.4 pips
+2025-11-25 12:25:26,475 INFO: SEÑAL SELL EURUSD → bid 1.15796 ≥ 1.15523 (rompe +0.4 pips)
+2025-11-25 12:25:26,616 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15796 | Ticket: 870270660
+2025-11-25 12:25:27,344 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870270660
+2025-11-25 12:28:07,354 INFO: DEBUG EURUSD → Vela anterior High 1.15743 Low 1.15523 | Bid 1.15740 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 12:28:07,354 INFO: SEÑAL SELL EURUSD → bid 1.15740 ≥ 1.15523 (rompe +0.4 pips)
+2025-11-25 12:28:07,510 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15740 | Ticket: 870273071
+2025-11-25 12:28:08,253 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870273071
+2025-11-25 12:28:08,255 INFO: DEBUG GBPUSD → Vela anterior High 1.31961 Low 1.31717 | Bid 1.31945 Ask 1.31945 | Romperá con 0.4 pips
+2025-11-25 12:28:08,256 INFO: SEÑAL SELL GBPUSD → bid 1.31945 ≥ 1.31717 (rompe +0.4 pips)
+2025-11-25 12:28:08,404 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31945 | Ticket: 870273085
+2025-11-25 12:28:09,146 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870273085
+2025-11-25 12:31:59,162 INFO: DEBUG EURUSD → Vela anterior High 1.15804 Low 1.15639 | Bid 1.15769 Ask 1.15769 | Romperá con 0.4 pips
+2025-11-25 12:31:59,162 INFO: SEÑAL SELL EURUSD → bid 1.15769 ≥ 1.15639 (rompe +0.4 pips)
+2025-11-25 12:31:59,301 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15769 | Ticket: 870276355
+2025-11-25 12:32:00,052 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870276355
+2025-11-25 12:33:40,058 INFO: DEBUG GBPUSD → Vela anterior High 1.32011 Low 1.31843 | Bid 1.31970 Ask 1.31970 | Romperá con 0.4 pips
+2025-11-25 12:33:40,058 INFO: SEÑAL SELL GBPUSD → bid 1.31970 ≥ 1.31843 (rompe +0.4 pips)
+2025-11-25 12:33:40,205 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31970 | Ticket: 870277699
+2025-11-25 12:33:42,087 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870277699
+2025-11-25 12:41:02,112 INFO: DEBUG GBPUSD → Vela anterior High 1.32011 Low 1.31843 | Bid 1.32001 Ask 1.32001 | Romperá con 0.4 pips
+2025-11-25 12:41:02,113 INFO: SEÑAL SELL GBPUSD → bid 1.32001 ≥ 1.31843 (rompe +0.4 pips)
+2025-11-25 12:41:02,264 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32001 | Ticket: 870286093
+2025-11-25 12:41:02,960 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870286093
+2025-11-25 12:46:53,121 INFO: Posición cerrada #870286093 | Profit: $0.44
+2025-11-25 12:47:03,891 INFO: DEBUG GBPUSD → Vela anterior High 1.32008 Low 1.31912 | Bid 1.31947 Ask 1.31948 | Romperá con 0.4 pips
+2025-11-25 12:47:03,892 INFO: SEÑAL SELL GBPUSD → bid 1.31947 ≥ 1.31912 (rompe +0.4 pips)
+2025-11-25 12:47:04,022 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31947 | Ticket: 870290418
+2025-11-25 12:47:04,740 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870290418
+2025-11-25 12:54:54,766 INFO: DEBUG GBPUSD → Vela anterior High 1.32008 Low 1.31912 | Bid 1.31980 Ask 1.31981 | Romperá con 0.4 pips
+2025-11-25 12:54:54,767 INFO: SEÑAL SELL GBPUSD → bid 1.31980 ≥ 1.31912 (rompe +0.4 pips)
+2025-11-25 12:54:54,935 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31980 | Ticket: 870296304
+2025-11-25 12:54:55,641 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870296304
+2025-11-25 12:55:15,646 INFO: DEBUG EURUSD → Vela anterior High 1.15780 Low 1.15720 | Bid 1.15799 Ask 1.15799 | Romperá con 0.4 pips
+2025-11-25 12:55:15,646 INFO: SEÑAL SELL EURUSD → bid 1.15799 ≥ 1.15720 (rompe +0.4 pips)
+2025-11-25 12:55:15,768 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15799 | Ticket: 870296648
+2025-11-25 12:55:16,448 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870296648
+2025-11-25 12:56:16,452 INFO: DEBUG GBPUSD → Vela anterior High 1.32008 Low 1.31912 | Bid 1.32016 Ask 1.32017 | Romperá con 0.4 pips
+2025-11-25 12:56:16,453 INFO: SEÑAL SELL GBPUSD → bid 1.32016 ≥ 1.31912 (rompe +0.4 pips)
+2025-11-25 12:56:16,591 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32016 | Ticket: 870297605
+2025-11-25 12:56:17,274 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870297605
+2025-11-25 12:56:47,277 INFO: DEBUG EURUSD → Vela anterior High 1.15780 Low 1.15720 | Bid 1.15837 Ask 1.15837 | Romperá con 0.4 pips
+2025-11-25 12:56:47,278 INFO: SEÑAL SELL EURUSD → bid 1.15837 ≥ 1.15720 (rompe +0.4 pips)
+2025-11-25 12:56:47,397 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15837 | Ticket: 870297915
+2025-11-25 12:56:48,096 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870297915
+2025-11-25 13:05:08,128 INFO: DEBUG GBPUSD → Vela anterior High 1.32042 Low 1.31928 | Bid 1.32041 Ask 1.32042 | Romperá con 0.4 pips
+2025-11-25 13:05:08,128 INFO: SEÑAL SELL GBPUSD → bid 1.32041 ≥ 1.31928 (rompe +0.4 pips)
+2025-11-25 13:05:08,258 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32041 | Ticket: 870304550
+2025-11-25 13:05:08,968 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870304550
+2025-11-25 13:06:08,977 INFO: DEBUG GBPUSD → Vela anterior High 1.32042 Low 1.31928 | Bid 1.32065 Ask 1.32069 | Romperá con 0.4 pips
+2025-11-25 13:06:08,977 INFO: SEÑAL SELL GBPUSD → bid 1.32065 ≥ 1.31928 (rompe +0.4 pips)
+2025-11-25 13:06:09,103 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32065 | Ticket: 870305245
+2025-11-25 13:06:09,884 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870305245
+2025-11-25 13:10:49,904 INFO: DEBUG EURUSD → Vela anterior High 1.15839 Low 1.15722 | Bid 1.15797 Ask 1.15798 | Romperá con 0.4 pips
+2025-11-25 13:10:49,904 INFO: SEÑAL SELL EURUSD → bid 1.15797 ≥ 1.15722 (rompe +0.4 pips)
+2025-11-25 13:10:50,038 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15797 | Ticket: 870308750
+2025-11-25 13:10:50,825 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870308750
+2025-11-25 13:10:50,825 INFO: DEBUG GBPUSD → Vela anterior High 1.32042 Low 1.31928 | Bid 1.32005 Ask 1.32009 | Romperá con 0.4 pips
+2025-11-25 13:10:50,825 INFO: SEÑAL SELL GBPUSD → bid 1.32005 ≥ 1.31928 (rompe +0.4 pips)
+2025-11-25 13:10:50,984 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32005 | Ticket: 870308776
+2025-11-25 13:10:52,000 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870308776
+2025-11-25 13:12:02,008 INFO: DEBUG GBPUSD → Vela anterior High 1.32042 Low 1.31928 | Bid 1.32041 Ask 1.32042 | Romperá con 0.4 pips
+2025-11-25 13:12:02,010 INFO: SEÑAL SELL GBPUSD → bid 1.32041 ≥ 1.31928 (rompe +0.4 pips)
+2025-11-25 13:12:02,158 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32041 | Ticket: 870309987
+2025-11-25 13:12:02,909 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870309987
+2025-11-25 13:20:12,944 INFO: DEBUG EURUSD → Vela anterior High 1.15859 Low 1.15766 | Bid 1.15828 Ask 1.15828 | Romperá con 0.4 pips
+2025-11-25 13:20:12,944 INFO: SEÑAL SELL EURUSD → bid 1.15828 ≥ 1.15766 (rompe +0.4 pips)
+2025-11-25 13:20:13,102 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15828 | Ticket: 870315416
+2025-11-25 13:20:13,824 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870315416
+2025-11-25 13:20:53,828 INFO: DEBUG GBPUSD → Vela anterior High 1.32089 Low 1.31981 | Bid 1.32070 Ask 1.32070 | Romperá con 0.4 pips
+2025-11-25 13:20:53,828 INFO: SEÑAL SELL GBPUSD → bid 1.32070 ≥ 1.31981 (rompe +0.4 pips)
+2025-11-25 13:20:53,942 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32070 | Ticket: 870315723
+2025-11-25 13:20:54,655 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870315723
+2025-11-25 13:41:34,743 INFO: DEBUG GBPUSD → Vela anterior High 1.32091 Low 1.32021 | Bid 1.32098 Ask 1.32098 | Romperá con 0.4 pips
+2025-11-25 13:41:34,743 INFO: SEÑAL SELL GBPUSD → bid 1.32098 ≥ 1.32021 (rompe +0.4 pips)
+2025-11-25 13:41:34,890 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32098 | Ticket: 870327651
+2025-11-25 13:41:35,679 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870327651
+2025-11-25 13:43:45,696 INFO: DEBUG GBPUSD → Vela anterior High 1.32091 Low 1.32021 | Bid 1.32131 Ask 1.32131 | Romperá con 0.4 pips
+2025-11-25 13:43:45,696 INFO: SEÑAL SELL GBPUSD → bid 1.32131 ≥ 1.32021 (rompe +0.4 pips)
+2025-11-25 13:43:45,808 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32131 | Ticket: 870328700
+2025-11-25 13:43:46,483 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870328700
+2025-11-25 13:50:26,522 INFO: DEBUG GBPUSD → Vela anterior High 1.32138 Low 1.32025 | Bid 1.32075 Ask 1.32075 | Romperá con 0.4 pips
+2025-11-25 13:50:26,522 INFO: SEÑAL SELL GBPUSD → bid 1.32075 ≥ 1.32025 (rompe +0.4 pips)
+2025-11-25 13:50:26,671 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32075 | Ticket: 870330991
+2025-11-25 13:50:27,437 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870330991
+2025-11-25 13:53:57,457 INFO: DEBUG GBPUSD → Vela anterior High 1.32138 Low 1.32025 | Bid 1.32108 Ask 1.32108 | Romperá con 0.4 pips
+2025-11-25 13:53:57,457 INFO: SEÑAL SELL GBPUSD → bid 1.32108 ≥ 1.32025 (rompe +0.4 pips)
+2025-11-25 13:53:57,574 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32108 | Ticket: 870331678
+2025-11-25 13:53:58,266 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870331678
+2025-11-25 13:59:18,296 INFO: DEBUG GBPUSD → Vela anterior High 1.32138 Low 1.32025 | Bid 1.32055 Ask 1.32055 | Romperá con 0.4 pips
+2025-11-25 13:59:18,296 INFO: SEÑAL SELL GBPUSD → bid 1.32055 ≥ 1.32025 (rompe +0.4 pips)
+2025-11-25 13:59:18,432 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32055 | Ticket: 870333584
+2025-11-25 13:59:19,191 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870333584
+2025-11-25 14:02:39,212 INFO: DEBUG GBPUSD → Vela anterior High 1.32130 Low 1.32049 | Bid 1.32087 Ask 1.32087 | Romperá con 0.4 pips
+2025-11-25 14:02:39,212 INFO: SEÑAL SELL GBPUSD → bid 1.32087 ≥ 1.32049 (rompe +0.4 pips)
+2025-11-25 14:02:39,359 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32087 | Ticket: 870336686
+2025-11-25 14:02:40,343 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870336686
+2025-11-25 14:10:30,374 INFO: DEBUG EURUSD → Vela anterior High 1.15833 Low 1.15791 | Bid 1.15765 Ask 1.15765 | Romperá con 0.4 pips
+2025-11-25 14:10:30,374 INFO: SEÑAL BUY EURUSD → ask 1.15765 ≤ 1.15833 (rompe +0.4 pips)
+2025-11-25 14:10:30,526 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15765 | Ticket: 870340966
+2025-11-25 14:10:31,433 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870340966
+2025-11-25 14:19:11,474 INFO: DEBUG GBPUSD → Vela anterior High 1.32088 Low 1.32051 | Bid 1.32029 Ask 1.32029 | Romperá con 0.4 pips
+2025-11-25 14:19:11,474 INFO: SEÑAL BUY GBPUSD → ask 1.32029 ≤ 1.32088 (rompe +0.4 pips)
+2025-11-25 14:19:11,608 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.32029 | Ticket: 870345037
+2025-11-25 14:19:12,429 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870345037
+2025-11-25 14:55:22,589 INFO: DEBUG GBPUSD → Vela anterior High 1.32070 Low 1.32018 | Bid 1.32088 Ask 1.32088 | Romperá con 0.4 pips
+2025-11-25 14:55:22,589 INFO: SEÑAL SELL GBPUSD → bid 1.32088 ≥ 1.32018 (rompe +0.4 pips)
+2025-11-25 14:55:22,732 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32088 | Ticket: 870360332
+2025-11-25 14:55:23,552 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870360332
+2025-11-25 14:55:53,568 INFO: DEBUG EURUSD → Vela anterior High 1.15808 Low 1.15756 | Bid 1.15820 Ask 1.15820 | Romperá con 0.4 pips
+2025-11-25 14:55:53,568 INFO: SEÑAL SELL EURUSD → bid 1.15820 ≥ 1.15756 (rompe +0.4 pips)
+2025-11-25 14:55:53,688 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15820 | Ticket: 870360461
+2025-11-25 14:55:54,380 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870360461
+2025-11-25 14:57:34,400 INFO: DEBUG GBPUSD → Vela anterior High 1.32070 Low 1.32018 | Bid 1.32123 Ask 1.32123 | Romperá con 0.4 pips
+2025-11-25 14:57:34,400 INFO: SEÑAL SELL GBPUSD → bid 1.32123 ≥ 1.32018 (rompe +0.4 pips)
+2025-11-25 14:57:34,543 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32123 | Ticket: 870360948
+2025-11-25 14:57:35,393 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870360948
+2025-11-25 14:58:05,398 INFO: DEBUG EURUSD → Vela anterior High 1.15808 Low 1.15756 | Bid 1.15853 Ask 1.15853 | Romperá con 0.4 pips
+2025-11-25 14:58:05,398 INFO: SEÑAL SELL EURUSD → bid 1.15853 ≥ 1.15756 (rompe +0.4 pips)
+2025-11-25 14:58:05,536 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15853 | Ticket: 870361215
+2025-11-25 14:58:06,247 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870361215
+2025-11-25 15:05:16,276 INFO: DEBUG EURUSD → Vela anterior High 1.15855 Low 1.15768 | Bid 1.15798 Ask 1.15798 | Romperá con 0.4 pips
+2025-11-25 15:05:16,276 INFO: SEÑAL SELL EURUSD → bid 1.15798 ≥ 1.15768 (rompe +0.4 pips)
+2025-11-25 15:05:16,412 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15798 | Ticket: 870364757
+2025-11-25 15:05:17,130 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870364757
+2025-11-25 15:16:27,171 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.32070 Ask 1.32070 | Romperá con 0.4 pips
+2025-11-25 15:16:27,171 INFO: SEÑAL BUY GBPUSD → ask 1.32070 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:16:27,342 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.32070 | Ticket: 870368802
+2025-11-25 15:16:28,079 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870368802
+2025-11-25 15:17:38,087 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.32039 Ask 1.32039 | Romperá con 0.4 pips
+2025-11-25 15:17:38,087 INFO: SEÑAL BUY GBPUSD → ask 1.32039 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:17:38,224 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.32039 | Ticket: 870369148
+2025-11-25 15:17:38,975 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870369148
+2025-11-25 15:18:08,979 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.32011 Ask 1.32011 | Romperá con 0.4 pips
+2025-11-25 15:18:08,979 INFO: SEÑAL BUY GBPUSD → ask 1.32011 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:18:09,137 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.32011 | Ticket: 870369273
+2025-11-25 15:18:10,085 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870369273
+2025-11-25 15:18:20,088 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31987 Ask 1.31987 | Romperá con 0.4 pips
+2025-11-25 15:18:20,088 INFO: SEÑAL BUY GBPUSD → ask 1.31987 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:18:20,252 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31987 | Ticket: 870369361
+2025-11-25 15:18:21,013 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870369361
+2025-11-25 15:19:21,019 INFO: DEBUG EURUSD → Vela anterior High 1.15845 Low 1.15783 | Bid 1.15740 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 15:19:21,019 INFO: SEÑAL BUY EURUSD → ask 1.15740 ≤ 1.15845 (rompe +0.4 pips)
+2025-11-25 15:19:21,175 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15740 | Ticket: 870369554
+2025-11-25 15:19:21,963 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870369554
+2025-11-25 15:20:01,966 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31955 Ask 1.31955 | Romperá con 0.4 pips
+2025-11-25 15:20:01,966 INFO: SEÑAL BUY GBPUSD → ask 1.31955 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:20:02,107 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31955 | Ticket: 870369779
+2025-11-25 15:20:02,885 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870369779
+2025-11-25 15:22:42,899 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31926 Ask 1.31926 | Romperá con 0.4 pips
+2025-11-25 15:22:42,900 INFO: SEÑAL BUY GBPUSD → ask 1.31926 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:22:43,052 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31926 | Ticket: 870370318
+2025-11-25 15:22:43,745 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870370318
+2025-11-25 15:25:03,756 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31886 Ask 1.31886 | Romperá con 0.4 pips
+2025-11-25 15:25:03,756 INFO: SEÑAL BUY GBPUSD → ask 1.31886 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:25:03,908 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31886 | Ticket: 870371335
+2025-11-25 15:25:04,613 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870371335
+2025-11-25 15:25:34,616 INFO: DEBUG EURUSD → Vela anterior High 1.15845 Low 1.15783 | Bid 1.15710 Ask 1.15710 | Romperá con 0.4 pips
+2025-11-25 15:25:34,617 INFO: SEÑAL BUY EURUSD → ask 1.15710 ≤ 1.15845 (rompe +0.4 pips)
+2025-11-25 15:25:34,763 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15710 | Ticket: 870371573
+2025-11-25 15:25:35,446 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870371573
+2025-11-25 15:26:05,449 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31849 Ask 1.31849 | Romperá con 0.4 pips
+2025-11-25 15:26:05,450 INFO: SEÑAL BUY GBPUSD → ask 1.31849 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:26:05,598 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31849 | Ticket: 870371762
+2025-11-25 15:26:06,288 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870371762
+2025-11-25 15:26:36,292 INFO: DEBUG EURUSD → Vela anterior High 1.15845 Low 1.15783 | Bid 1.15680 Ask 1.15680 | Romperá con 0.4 pips
+2025-11-25 15:26:36,292 INFO: SEÑAL BUY EURUSD → ask 1.15680 ≤ 1.15845 (rompe +0.4 pips)
+2025-11-25 15:26:36,417 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15680 | Ticket: 870371927
+2025-11-25 15:26:37,176 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870371927
+2025-11-25 15:26:37,178 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31817 Ask 1.31817 | Romperá con 0.4 pips
+2025-11-25 15:26:37,178 INFO: SEÑAL BUY GBPUSD → ask 1.31817 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:26:37,327 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31817 | Ticket: 870371936
+2025-11-25 15:26:38,017 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870371936
+2025-11-25 15:27:58,024 INFO: DEBUG GBPUSD → Vela anterior High 1.32144 Low 1.32082 | Bid 1.31773 Ask 1.31773 | Romperá con 0.4 pips
+2025-11-25 15:27:58,024 INFO: SEÑAL BUY GBPUSD → ask 1.31773 ≤ 1.32144 (rompe +0.4 pips)
+2025-11-25 15:27:58,174 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31773 | Ticket: 870372361
+2025-11-25 15:27:58,945 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870372361
+2025-11-25 15:30:08,954 INFO: DEBUG EURUSD → Vela anterior High 1.15789 Low 1.15663 | Bid 1.15651 Ask 1.15651 | Romperá con 0.4 pips
+2025-11-25 15:30:08,954 INFO: SEÑAL BUY EURUSD → ask 1.15651 ≤ 1.15789 (rompe +0.4 pips)
+2025-11-25 15:30:09,108 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15651 | Ticket: 870373523
+2025-11-25 15:30:09,781 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870373523
+2025-11-25 15:30:09,783 INFO: DEBUG GBPUSD → Vela anterior High 1.32088 Low 1.31760 | Bid 1.31741 Ask 1.31741 | Romperá con 0.4 pips
+2025-11-25 15:30:09,783 INFO: SEÑAL BUY GBPUSD → ask 1.31741 ≤ 1.32088 (rompe +0.4 pips)
+2025-11-25 15:30:09,953 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31741 | Ticket: 870373537
+2025-11-25 15:30:10,640 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870373537
+2025-11-25 15:34:00,655 INFO: DEBUG GBPUSD → Vela anterior High 1.32088 Low 1.31760 | Bid 1.31706 Ask 1.31706 | Romperá con 0.4 pips
+2025-11-25 15:34:00,656 INFO: SEÑAL BUY GBPUSD → ask 1.31706 ≤ 1.32088 (rompe +0.4 pips)
+2025-11-25 15:34:00,806 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31706 | Ticket: 870375064
+2025-11-25 15:34:01,506 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870375064
+2025-11-25 15:36:10,311 INFO: DEBUG GBPUSD → Vela anterior High 1.32088 Low 1.31760 | Bid 1.31646 Ask 1.31646 | Romperá con 0.4 pips
+2025-11-25 15:36:10,312 INFO: SEÑAL BUY GBPUSD → ask 1.31646 ≤ 1.32088 (rompe +0.4 pips)
+2025-11-25 15:36:10,456 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31646 | Ticket: 870375745
+2025-11-25 15:36:11,167 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870375745
+2025-11-25 15:42:41,193 INFO: DEBUG GBPUSD → Vela anterior High 1.32088 Low 1.31760 | Bid 1.31614 Ask 1.31614 | Romperá con 0.4 pips
+2025-11-25 15:42:41,194 INFO: SEÑAL BUY GBPUSD → ask 1.31614 ≤ 1.32088 (rompe +0.4 pips)
+2025-11-25 15:42:41,340 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31614 | Ticket: 870377853
+2025-11-25 15:42:42,112 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870377853
+2025-11-25 15:47:02,127 INFO: DEBUG EURUSD → Vela anterior High 1.15676 Low 1.15622 | Bid 1.15622 Ask 1.15622 | Romperá con 0.4 pips
+2025-11-25 15:47:02,128 INFO: SEÑAL BUY EURUSD → ask 1.15622 ≤ 1.15676 (rompe +0.4 pips)
+2025-11-25 15:47:02,263 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15622 | Ticket: 870379386
+2025-11-25 15:47:04,017 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870379386
+2025-11-25 15:48:24,023 INFO: DEBUG EURUSD → Vela anterior High 1.15676 Low 1.15622 | Bid 1.15590 Ask 1.15590 | Romperá con 0.4 pips
+2025-11-25 15:48:24,023 INFO: SEÑAL BUY EURUSD → ask 1.15590 ≤ 1.15676 (rompe +0.4 pips)
+2025-11-25 15:48:24,163 INFO: ORDEN ABIERTA OK → EURUSD | BUY | Vol: 0.01 | Precio: 1.15590 | Ticket: 870380004
+2025-11-25 15:48:26,498 INFO: ABIERTA → EURUSD BUY 0.01 lotes | ticket 870380004
+2025-11-25 15:48:26,499 INFO: DEBUG GBPUSD → Vela anterior High 1.31790 Low 1.31610 | Bid 1.31563 Ask 1.31563 | Romperá con 0.4 pips
+2025-11-25 15:48:26,500 INFO: SEÑAL BUY GBPUSD → ask 1.31563 ≤ 1.31790 (rompe +0.4 pips)
+2025-11-25 15:48:26,626 INFO: ORDEN ABIERTA OK → GBPUSD | BUY | Vol: 0.01 | Precio: 1.31563 | Ticket: 870380031
+2025-11-25 15:48:27,315 INFO: ABIERTA → GBPUSD BUY 0.01 lotes | ticket 870380031
+2025-11-25 15:57:47,350 INFO: DEBUG EURUSD → Vela anterior High 1.15676 Low 1.15622 | Bid 1.15648 Ask 1.15648 | Romperá con 0.4 pips
+2025-11-25 15:57:47,350 INFO: SEÑAL SELL EURUSD → bid 1.15648 ≥ 1.15622 (rompe +0.4 pips)
+2025-11-25 15:57:47,492 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15648 | Ticket: 870382913
+2025-11-25 15:57:48,215 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870382913
+2025-11-25 15:57:48,218 INFO: DEBUG GBPUSD → Vela anterior High 1.31790 Low 1.31610 | Bid 1.31618 Ask 1.31618 | Romperá con 0.4 pips
+2025-11-25 15:57:48,218 INFO: SEÑAL SELL GBPUSD → bid 1.31618 ≥ 1.31610 (rompe +0.4 pips)
+2025-11-25 15:57:48,367 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31618 | Ticket: 870382916
+2025-11-25 15:57:49,077 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870382916
+2025-11-25 16:02:19,095 INFO: DEBUG GBPUSD → Vela anterior High 1.31631 Low 1.31537 | Bid 1.31651 Ask 1.31651 | Romperá con 0.4 pips
+2025-11-25 16:02:19,095 INFO: SEÑAL SELL GBPUSD → bid 1.31651 ≥ 1.31537 (rompe +0.4 pips)
+2025-11-25 16:02:19,224 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31651 | Ticket: 870385232
+2025-11-25 16:02:19,921 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870385232
+2025-11-25 16:08:29,943 INFO: DEBUG EURUSD → Vela anterior High 1.15653 Low 1.15582 | Bid 1.15679 Ask 1.15679 | Romperá con 0.4 pips
+2025-11-25 16:08:29,943 INFO: SEÑAL SELL EURUSD → bid 1.15679 ≥ 1.15582 (rompe +0.4 pips)
+2025-11-25 16:08:30,074 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15679 | Ticket: 870387404
+2025-11-25 16:08:30,772 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870387404
+2025-11-25 16:23:30,827 INFO: DEBUG GBPUSD → Vela anterior High 1.31670 Low 1.31616 | Bid 1.31679 Ask 1.31680 | Romperá con 0.4 pips
+2025-11-25 16:23:30,827 INFO: SEÑAL SELL GBPUSD → bid 1.31679 ≥ 1.31616 (rompe +0.4 pips)
+2025-11-25 16:23:30,975 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31679 | Ticket: 870390907
+2025-11-25 16:23:31,649 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870390907
+2025-11-25 16:24:51,655 INFO: DEBUG EURUSD → Vela anterior High 1.15693 Low 1.15644 | Bid 1.15708 Ask 1.15708 | Romperá con 0.4 pips
+2025-11-25 16:24:51,656 INFO: SEÑAL SELL EURUSD → bid 1.15708 ≥ 1.15644 (rompe +0.4 pips)
+2025-11-25 16:24:51,790 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15708 | Ticket: 870391198
+2025-11-25 16:24:52,484 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870391198
+2025-11-25 16:25:22,488 INFO: DEBUG GBPUSD → Vela anterior High 1.31670 Low 1.31616 | Bid 1.31709 Ask 1.31710 | Romperá con 0.4 pips
+2025-11-25 16:25:22,488 INFO: SEÑAL SELL GBPUSD → bid 1.31709 ≥ 1.31616 (rompe +0.4 pips)
+2025-11-25 16:25:22,632 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31709 | Ticket: 870391281
+2025-11-25 16:25:23,322 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870391281
+2025-11-25 16:32:33,347 INFO: DEBUG GBPUSD → Vela anterior High 1.31720 Low 1.31628 | Bid 1.31649 Ask 1.31650 | Romperá con 0.4 pips
+2025-11-25 16:32:33,348 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31628 (rompe +0.4 pips)
+2025-11-25 16:32:33,475 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31649 | Ticket: 870392461
+2025-11-25 16:32:35,707 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870392461
+2025-11-25 16:33:05,711 INFO: DEBUG GBPUSD → Vela anterior High 1.31720 Low 1.31628 | Bid 1.31679 Ask 1.31680 | Romperá con 0.4 pips
+2025-11-25 16:33:05,711 INFO: SEÑAL SELL GBPUSD → bid 1.31679 ≥ 1.31628 (rompe +0.4 pips)
+2025-11-25 16:33:05,863 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31679 | Ticket: 870392515
+2025-11-25 16:33:06,533 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870392515
+2025-11-25 17:05:46,650 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:05:46,651 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:05:46,653 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:05:46,654 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:05:56,656 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:05:56,656 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:05:56,657 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:05:56,657 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:06:06,660 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:06:06,661 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:06:06,661 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:06:06,661 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:06:16,664 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:06:16,664 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:06:16,665 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:06:16,665 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:06:26,668 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:06:26,669 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:06:26,669 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:06:26,670 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:06:36,672 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:06:36,673 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:06:36,673 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:06:36,674 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:06:46,675 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:06:46,676 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:06:46,676 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:06:46,676 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:06:56,679 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:06:56,679 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:06:56,679 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:06:56,680 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:07:06,683 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:07:06,683 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:07:06,683 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:07:06,684 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:07:16,686 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:07:16,687 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:07:16,687 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:07:16,688 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:07:26,690 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:07:26,690 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:07:26,691 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:07:26,691 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:07:36,693 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:07:36,694 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:07:36,694 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:07:36,695 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:07:46,697 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:07:46,697 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:07:46,698 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:07:46,698 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:07:56,700 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:07:56,700 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:07:56,700 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:07:56,701 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:08:06,703 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:08:06,704 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:08:06,704 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:08:06,705 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:08:16,707 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:08:16,708 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:08:16,708 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:08:16,708 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:08:26,710 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:08:26,711 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:08:26,712 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:08:26,712 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:08:36,714 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:08:36,714 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:08:36,715 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:08:36,715 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:08:46,718 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:08:46,718 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:08:46,718 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:08:46,719 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:08:56,721 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:08:56,721 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:08:56,722 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:08:56,722 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:09:06,725 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:09:06,725 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:09:06,725 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:09:06,725 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:09:16,728 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:09:16,728 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:09:16,728 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:09:16,729 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:09:26,731 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:09:26,731 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:09:26,732 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:09:26,732 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:09:36,735 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:09:36,735 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:09:36,736 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:09:36,736 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:09:46,738 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:09:46,738 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:09:46,739 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:09:46,739 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:09:56,741 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:09:56,742 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:09:56,743 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:09:56,743 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:10:06,746 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:10:06,747 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:10:06,747 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:10:06,747 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:10:16,749 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:10:16,749 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:10:16,750 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:10:16,750 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:10:26,753 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:10:26,753 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:10:26,754 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:10:26,754 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:10:36,756 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:10:36,757 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:10:36,757 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:10:36,757 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:10:46,759 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:10:46,760 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:10:46,760 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:10:46,760 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:10:56,763 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31649 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:10:56,763 INFO: SEÑAL SELL GBPUSD → bid 1.31649 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:10:56,763 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:10:56,763 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:11:06,766 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:11:06,766 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:11:06,767 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:11:06,767 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:11:16,770 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:11:16,770 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:11:16,771 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:11:16,771 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:11:26,774 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:11:26,774 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:11:26,774 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:11:26,775 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:11:36,777 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:11:36,777 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:11:36,777 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:11:36,778 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:11:46,780 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:11:46,781 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:11:46,781 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:11:46,781 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:11:56,783 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:11:56,784 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:11:56,784 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:11:56,784 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:12:06,788 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:12:06,788 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:12:06,789 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:12:06,789 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:12:16,791 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:12:16,791 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:12:16,793 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:12:16,793 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:12:26,795 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:12:26,796 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:12:26,796 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:12:26,797 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:12:36,799 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:12:36,799 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:12:36,800 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:12:36,800 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:12:46,802 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:12:46,803 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:12:46,803 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:12:46,804 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:12:56,806 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:12:56,806 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:12:56,807 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:12:56,807 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:13:06,809 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:13:06,809 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:13:06,810 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:13:06,810 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:13:16,812 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:13:16,812 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:13:16,813 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:13:16,813 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:13:26,815 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:13:26,816 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:13:26,816 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:13:26,816 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:13:36,819 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:13:36,819 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:13:36,820 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:13:36,821 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:13:46,822 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:13:46,822 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:13:46,823 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:13:46,824 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:13:56,826 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:13:56,826 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:13:56,827 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:13:56,827 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:14:06,829 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:14:06,829 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:14:06,831 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:14:06,831 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:14:16,833 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:14:16,834 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:14:16,834 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:14:16,835 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:14:26,837 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:14:26,837 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:14:26,837 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:14:26,838 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:14:36,841 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:14:36,841 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:14:36,842 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:14:36,842 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:14:46,845 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31694 | Romperá con 0.4 pips
+2025-11-25 17:14:46,845 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:14:46,846 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:14:46,846 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:14:56,848 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:14:56,849 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:14:56,849 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:14:56,850 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:15:06,853 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:15:06,853 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:15:06,853 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:15:06,854 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:15:16,856 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:15:16,856 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:15:16,857 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:15:16,857 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:15:26,859 INFO: DEBUG GBPUSD → Vela anterior High 1.31674 Low 1.31617 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:15:26,860 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31617 (rompe +0.4 pips)
+2025-11-25 17:15:26,860 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:15:26,860 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:15:36,863 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:15:36,864 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:15:36,864 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:15:36,864 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:15:46,866 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:15:46,867 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:15:46,867 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:15:46,867 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:15:56,869 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:15:56,869 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:15:56,870 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:15:56,871 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:16:06,873 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:16:06,873 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:16:06,874 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:16:06,874 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:16:16,876 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:16:16,876 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:16:16,877 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:16:16,877 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:16:26,879 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:16:26,880 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:16:26,880 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:16:26,880 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:16:36,882 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:16:36,883 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:16:36,884 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:16:36,884 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:16:46,887 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:16:46,887 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:16:46,888 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:16:46,888 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:16:56,890 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:16:56,890 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:16:56,891 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:16:56,891 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:17:06,894 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:17:06,894 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:17:06,894 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:17:06,895 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:17:16,898 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:17:16,898 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:17:16,899 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:17:16,899 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:17:26,901 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:17:26,901 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:17:26,902 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:17:26,902 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:17:36,904 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:17:36,905 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:17:36,905 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:17:36,905 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:17:46,908 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:17:46,908 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:17:46,909 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:17:46,909 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:17:56,911 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:17:56,912 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:17:56,912 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:17:56,912 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:18:06,915 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:18:06,915 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:18:06,915 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:18:06,915 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:18:16,919 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:18:16,919 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:18:16,920 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:18:16,920 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:18:26,923 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:18:26,923 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:18:26,923 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:18:26,924 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:18:36,926 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:18:36,927 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:18:36,927 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:18:36,927 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:18:46,930 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:18:46,930 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:18:46,930 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:18:46,930 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:18:56,933 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:18:56,933 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:18:56,933 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:18:56,934 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:19:06,936 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:19:06,937 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:19:06,937 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:19:06,937 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:19:16,940 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:19:16,940 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:19:16,940 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:19:16,941 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:19:26,943 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:19:26,944 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:19:26,944 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:19:26,944 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:19:36,946 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:19:36,947 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:19:36,948 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:19:36,948 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:19:46,950 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:19:46,950 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:19:46,950 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:19:46,950 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:19:56,953 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31650 Ask 1.31704 | Romperá con 0.4 pips
+2025-11-25 17:19:56,954 INFO: SEÑAL SELL GBPUSD → bid 1.31650 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:19:56,954 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:19:56,955 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:06,957 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15678 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:20:06,957 INFO: SEÑAL SELL EURUSD → bid 1.15678 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:20:06,958 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:20:06,958 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:06,959 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31642 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:20:06,959 INFO: SEÑAL SELL GBPUSD → bid 1.31642 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:20:06,960 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:20:06,961 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:16,963 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15678 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:20:16,963 INFO: SEÑAL SELL EURUSD → bid 1.15678 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:20:16,964 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:20:16,964 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:16,965 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31642 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:20:16,965 INFO: SEÑAL SELL GBPUSD → bid 1.31642 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:20:16,967 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:20:16,967 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:26,969 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15678 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:20:26,969 INFO: SEÑAL SELL EURUSD → bid 1.15678 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:20:26,970 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:20:26,970 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:26,971 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31642 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:20:26,971 INFO: SEÑAL SELL GBPUSD → bid 1.31642 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:20:26,972 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:20:26,973 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:36,975 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15679 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:20:36,975 INFO: SEÑAL SELL EURUSD → bid 1.15679 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:20:36,975 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:20:36,975 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:36,977 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31642 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:20:36,978 INFO: SEÑAL SELL GBPUSD → bid 1.31642 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:20:36,978 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:20:36,982 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:46,985 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15679 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:20:46,986 INFO: SEÑAL SELL EURUSD → bid 1.15679 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:20:46,986 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:20:46,986 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:46,988 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31642 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:20:46,988 INFO: SEÑAL SELL GBPUSD → bid 1.31642 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:20:46,988 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:20:46,988 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:56,991 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15679 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:20:56,993 INFO: SEÑAL SELL EURUSD → bid 1.15679 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:20:56,994 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:20:56,994 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:20:56,996 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31646 Ask 1.31767 | Romperá con 0.4 pips
+2025-11-25 17:20:56,997 INFO: SEÑAL SELL GBPUSD → bid 1.31646 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:20:56,997 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:20:56,997 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:06,999 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15680 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:21:07,000 INFO: SEÑAL SELL EURUSD → bid 1.15680 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:21:07,000 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:21:07,000 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:07,002 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31646 Ask 1.31767 | Romperá con 0.4 pips
+2025-11-25 17:21:07,002 INFO: SEÑAL SELL GBPUSD → bid 1.31646 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:21:07,002 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:21:07,004 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:17,005 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15680 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:21:17,005 INFO: SEÑAL SELL EURUSD → bid 1.15680 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:21:17,006 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:21:17,006 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:17,007 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31646 Ask 1.31767 | Romperá con 0.4 pips
+2025-11-25 17:21:17,008 INFO: SEÑAL SELL GBPUSD → bid 1.31646 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:21:17,009 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:21:17,009 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:27,012 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15680 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:21:27,013 INFO: SEÑAL SELL EURUSD → bid 1.15680 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:21:27,013 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:21:27,013 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:27,015 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31646 Ask 1.31767 | Romperá con 0.4 pips
+2025-11-25 17:21:27,015 INFO: SEÑAL SELL GBPUSD → bid 1.31646 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:21:27,015 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:21:27,015 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:37,018 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15676 Ask 1.15739 | Romperá con 0.4 pips
+2025-11-25 17:21:37,018 INFO: SEÑAL SELL EURUSD → bid 1.15676 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:21:37,019 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:21:37,019 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:37,020 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31771 | Romperá con 0.4 pips
+2025-11-25 17:21:37,020 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:21:37,021 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:21:37,021 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:47,023 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15676 Ask 1.15739 | Romperá con 0.4 pips
+2025-11-25 17:21:47,024 INFO: SEÑAL SELL EURUSD → bid 1.15676 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:21:47,024 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:21:47,024 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:47,026 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31771 | Romperá con 0.4 pips
+2025-11-25 17:21:47,026 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:21:47,027 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:21:47,027 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:57,029 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15679 Ask 1.15740 | Romperá con 0.4 pips
+2025-11-25 17:21:57,030 INFO: SEÑAL SELL EURUSD → bid 1.15679 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:21:57,030 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:21:57,030 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:21:57,032 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31771 | Romperá con 0.4 pips
+2025-11-25 17:21:57,032 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:21:57,033 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:21:57,033 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:07,035 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15666 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:22:07,035 INFO: SEÑAL SELL EURUSD → bid 1.15666 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:22:07,036 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:22:07,036 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:07,038 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 17:22:07,038 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:22:07,039 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:22:07,039 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:17,041 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15666 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:22:17,041 INFO: SEÑAL SELL EURUSD → bid 1.15666 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:22:17,042 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:22:17,043 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:17,044 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 17:22:17,045 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:22:17,045 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:22:17,045 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:27,048 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15666 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:22:27,048 INFO: SEÑAL SELL EURUSD → bid 1.15666 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:22:27,049 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:22:27,049 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:27,050 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 17:22:27,050 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:22:27,051 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:22:27,051 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:37,053 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15667 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:22:37,054 INFO: SEÑAL SELL EURUSD → bid 1.15667 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:22:37,054 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:22:37,054 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:37,055 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 17:22:37,056 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:22:37,057 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:22:37,057 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:47,058 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15667 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:22:47,059 INFO: SEÑAL SELL EURUSD → bid 1.15667 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:22:47,059 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:22:47,059 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:47,061 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 17:22:47,061 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:22:47,062 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:22:47,062 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:57,064 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15667 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:22:57,064 INFO: SEÑAL SELL EURUSD → bid 1.15667 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:22:57,065 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:22:57,065 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:22:57,066 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31766 | Romperá con 0.4 pips
+2025-11-25 17:22:57,067 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:22:57,067 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:22:57,068 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:07,070 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:23:07,070 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:23:07,070 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:23:07,070 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:07,072 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:23:07,072 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:23:07,073 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:23:07,073 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:17,075 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15668 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:23:17,076 INFO: SEÑAL SELL EURUSD → bid 1.15668 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:23:17,076 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:23:17,076 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:17,078 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:23:17,079 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:23:17,079 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:23:17,079 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:27,081 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15668 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:23:27,081 INFO: SEÑAL SELL EURUSD → bid 1.15668 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:23:27,082 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:23:27,082 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:27,086 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:23:27,087 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:23:27,087 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:23:27,088 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:37,089 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:23:37,089 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:23:37,090 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:23:37,090 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:37,092 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:23:37,092 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:23:37,093 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:23:37,093 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:47,095 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:23:47,096 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:23:47,097 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:23:47,097 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:47,099 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:23:47,099 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:23:47,100 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:23:47,100 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:57,101 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15726 | Romperá con 0.4 pips
+2025-11-25 17:23:57,101 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:23:57,103 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:23:57,103 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:23:57,104 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:23:57,105 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:23:57,105 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:23:57,105 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:07,108 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15663 Ask 1.15726 | Romperá con 0.4 pips
+2025-11-25 17:24:07,108 INFO: SEÑAL SELL EURUSD → bid 1.15663 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:24:07,109 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:24:07,109 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:07,110 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:24:07,111 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:24:07,111 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:24:07,111 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:17,113 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15663 Ask 1.15726 | Romperá con 0.4 pips
+2025-11-25 17:24:17,114 INFO: SEÑAL SELL EURUSD → bid 1.15663 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:24:17,114 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:24:17,114 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:17,115 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:24:17,116 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:24:17,117 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:24:17,117 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:27,119 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15662 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:24:27,120 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:24:27,120 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:24:27,120 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:27,121 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:24:27,122 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:24:27,122 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:24:27,123 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:37,126 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15662 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:24:37,126 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:24:37,126 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:24:37,126 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:37,128 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31657 Ask 1.31763 | Romperá con 0.4 pips
+2025-11-25 17:24:37,129 INFO: SEÑAL SELL GBPUSD → bid 1.31657 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:24:37,130 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:24:37,130 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:47,132 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15662 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:24:47,132 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:24:47,133 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:24:47,133 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:47,133 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31669 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:24:47,134 INFO: SEÑAL SELL GBPUSD → bid 1.31669 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:24:47,135 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:24:47,135 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:57,137 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15662 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:24:57,138 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:24:57,139 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:24:57,139 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:24:57,140 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31669 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:24:57,141 INFO: SEÑAL SELL GBPUSD → bid 1.31669 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:24:57,141 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:24:57,141 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:07,144 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:25:07,144 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:25:07,145 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:25:07,146 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:07,147 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31669 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:25:07,147 INFO: SEÑAL SELL GBPUSD → bid 1.31669 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:25:07,148 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:25:07,148 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:17,151 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:25:17,151 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:25:17,151 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:25:17,152 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:17,154 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31669 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:25:17,154 INFO: SEÑAL SELL GBPUSD → bid 1.31669 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:25:17,154 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:25:17,154 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:27,156 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:25:27,157 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:25:27,157 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:25:27,157 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:27,159 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31669 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:25:27,159 INFO: SEÑAL SELL GBPUSD → bid 1.31669 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:25:27,160 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:25:27,160 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:37,162 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15665 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:25:37,163 INFO: SEÑAL SELL EURUSD → bid 1.15665 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:25:37,163 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:25:37,163 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:37,164 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31667 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:25:37,164 INFO: SEÑAL SELL GBPUSD → bid 1.31667 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:25:37,166 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:25:37,166 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:47,168 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15663 Ask 1.15722 | Romperá con 0.4 pips
+2025-11-25 17:25:47,168 INFO: SEÑAL SELL EURUSD → bid 1.15663 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:25:47,169 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:25:47,170 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:47,172 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31667 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:25:47,172 INFO: SEÑAL SELL GBPUSD → bid 1.31667 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:25:47,172 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:25:47,173 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:57,175 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15663 Ask 1.15722 | Romperá con 0.4 pips
+2025-11-25 17:25:57,175 INFO: SEÑAL SELL EURUSD → bid 1.15663 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:25:57,175 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:25:57,175 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:25:57,177 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31667 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:25:57,177 INFO: SEÑAL SELL GBPUSD → bid 1.31667 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:25:57,178 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:25:57,178 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:07,180 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15663 Ask 1.15722 | Romperá con 0.4 pips
+2025-11-25 17:26:07,180 INFO: SEÑAL SELL EURUSD → bid 1.15663 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:26:07,181 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:26:07,181 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:07,182 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31667 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:26:07,182 INFO: SEÑAL SELL GBPUSD → bid 1.31667 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:26:07,183 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:26:07,183 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:17,186 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15667 Ask 1.15724 | Romperá con 0.4 pips
+2025-11-25 17:26:17,187 INFO: SEÑAL SELL EURUSD → bid 1.15667 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:26:17,187 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:26:17,188 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:17,190 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31670 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:26:17,190 INFO: SEÑAL SELL GBPUSD → bid 1.31670 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:26:17,190 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:26:17,191 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:27,193 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15668 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:26:27,193 INFO: SEÑAL SELL EURUSD → bid 1.15668 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:26:27,193 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:26:27,194 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:27,195 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31670 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:26:27,196 INFO: SEÑAL SELL GBPUSD → bid 1.31670 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:26:27,196 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:26:27,196 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:37,198 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15668 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:26:37,199 INFO: SEÑAL SELL EURUSD → bid 1.15668 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:26:37,199 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:26:37,199 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:37,201 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31670 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:26:37,201 INFO: SEÑAL SELL GBPUSD → bid 1.31670 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:26:37,202 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:26:37,202 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:47,205 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:26:47,205 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:26:47,206 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:26:47,206 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:47,207 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31670 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:26:47,207 INFO: SEÑAL SELL GBPUSD → bid 1.31670 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:26:47,207 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:26:47,208 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:57,210 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15725 | Romperá con 0.4 pips
+2025-11-25 17:26:57,211 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:26:57,211 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:26:57,212 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:26:57,213 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31670 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:26:57,213 INFO: SEÑAL SELL GBPUSD → bid 1.31670 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:26:57,213 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:26:57,213 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:07,215 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:27:07,216 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:27:07,216 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:27:07,217 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:07,218 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31668 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:27:07,219 INFO: SEÑAL SELL GBPUSD → bid 1.31668 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:27:07,219 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:27:07,219 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:17,222 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:27:17,222 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:27:17,223 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:27:17,223 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:17,225 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31668 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:27:17,225 INFO: SEÑAL SELL GBPUSD → bid 1.31668 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:27:17,225 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:27:17,225 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:27,227 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:27:27,228 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:27:27,228 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:27:27,229 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:27,231 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31668 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:27:27,231 INFO: SEÑAL SELL GBPUSD → bid 1.31668 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:27:27,232 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:27:27,232 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:37,234 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15664 Ask 1.15723 | Romperá con 0.4 pips
+2025-11-25 17:27:37,234 INFO: SEÑAL SELL EURUSD → bid 1.15664 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:27:37,235 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:27:37,236 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:37,237 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31668 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:27:37,237 INFO: SEÑAL SELL GBPUSD → bid 1.31668 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:27:37,238 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:27:37,238 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:47,241 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15662 Ask 1.15719 | Romperá con 0.4 pips
+2025-11-25 17:27:47,242 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:27:47,243 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:27:47,243 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:47,245 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31668 Ask 1.31768 | Romperá con 0.4 pips
+2025-11-25 17:27:47,246 INFO: SEÑAL SELL GBPUSD → bid 1.31668 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:27:47,247 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:27:47,247 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:57,249 INFO: DEBUG EURUSD → Vela anterior High 1.15684 Low 1.15655 | Bid 1.15662 Ask 1.15718 | Romperá con 0.4 pips
+2025-11-25 17:27:57,249 INFO: SEÑAL SELL EURUSD → bid 1.15662 ≥ 1.15655 (rompe +0.4 pips)
+2025-11-25 17:27:57,250 WARNING: IOC falló (10016), reintentando con FOK en EURUSD
+2025-11-25 17:27:57,250 ERROR: ERROR FINAL enviando orden EURUSD: 10030 - Unsupported filling mode
+2025-11-25 17:27:57,252 INFO: DEBUG GBPUSD → Vela anterior High 1.31756 Low 1.31623 | Bid 1.31671 Ask 1.31748 | Romperá con 0.4 pips
+2025-11-25 17:27:57,252 INFO: SEÑAL SELL GBPUSD → bid 1.31671 ≥ 1.31623 (rompe +0.4 pips)
+2025-11-25 17:27:57,253 WARNING: IOC falló (10016), reintentando con FOK en GBPUSD
+2025-11-25 17:27:57,253 ERROR: ERROR FINAL enviando orden GBPUSD: 10030 - Unsupported filling mode
+2025-11-25 17:28:07,253 WARNING: EURUSD no está seleccionado en Market Watch
+2025-11-25 17:28:07,253 WARNING: GBPUSD no está seleccionado en Market Watch
+2025-11-25 17:28:10,192 INFO: Detenido manualmente
+2025-11-25 17:28:10,192 INFO: MARK2 DETENIDO
+2025-11-26 09:17:15,808 INFO: MARK2 INMORTAL INICIADO – VERSIÓN ANTI-RANGO 100%
+2025-11-26 09:17:18,292 INFO: Conectado a MT5 correctamente
+2025-11-26 09:17:19,087 INFO: SEÑAL SELL EURUSD → bid 1.15577 ≥ 1.15472 (+1.4 pips)
+2025-11-26 09:17:19,730 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15577 | Ticket: 870855176
+2025-11-26 09:17:20,434 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870855176
+2025-11-26 09:17:20,451 INFO: SEÑAL SELL GBPUSD → bid 1.32007 ≥ 1.31850 (+1.4 pips)
+2025-11-26 09:17:20,582 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32007 | Ticket: 870855194
+2025-11-26 09:17:21,242 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870855194
+2025-11-26 09:24:51,269 INFO: SEÑAL SELL GBPUSD → bid 1.31945 ≥ 1.31850 (+1.4 pips)
+2025-11-26 09:24:51,433 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31945 | Ticket: 870860172
+2025-11-26 09:24:52,182 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870860172
+2025-11-26 09:30:52,199 INFO: SEÑAL SELL EURUSD → bid 1.15608 ≥ 1.15546 (+1.4 pips)
+2025-11-26 09:30:52,313 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15608 | Ticket: 870866420
+2025-11-26 09:30:53,056 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870866420
+2025-11-26 09:32:38,062 INFO: SEÑAL SELL EURUSD → bid 1.15641 ≥ 1.15546 (+1.4 pips)
+2025-11-26 09:32:38,205 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15641 | Ticket: 870869040
+2025-11-26 09:32:38,862 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870869040
+2025-11-26 09:34:38,879 INFO: SEÑAL SELL EURUSD → bid 1.15675 ≥ 1.15546 (+1.4 pips)
+2025-11-26 09:34:39,030 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15675 | Ticket: 870872292
+2025-11-26 09:34:39,734 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870872292
+2025-11-26 09:36:39,747 INFO: SEÑAL SELL EURUSD → bid 1.15714 ≥ 1.15546 (+1.4 pips)
+2025-11-26 09:36:39,890 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15714 | Ticket: 870874923
+2025-11-26 09:36:40,673 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870874923
+2025-11-26 09:41:10,691 INFO: SEÑAL SELL GBPUSD → bid 1.31978 ≥ 1.31894 (+1.4 pips)
+2025-11-26 09:41:10,848 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31978 | Ticket: 870879597
+2025-11-26 09:41:11,613 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870879597
+2025-11-26 09:42:26,618 INFO: SEÑAL SELL EURUSD → bid 1.15751 ≥ 1.15546 (+1.4 pips)
+2025-11-26 09:42:26,778 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15751 | Ticket: 870880862
+2025-11-26 09:42:27,471 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870880862
+2025-11-26 09:46:12,481 INFO: SEÑAL SELL EURUSD → bid 1.15780 ≥ 1.15590 (+1.4 pips)
+2025-11-26 09:46:12,624 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15780 | Ticket: 870884684
+2025-11-26 09:46:13,358 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870884684
+2025-11-26 09:47:13,363 INFO: SEÑAL SELL GBPUSD → bid 1.32006 ≥ 1.31886 (+1.4 pips)
+2025-11-26 09:47:13,528 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32006 | Ticket: 870885441
+2025-11-26 09:47:14,321 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870885441
+2025-11-26 09:49:14,328 INFO: SEÑAL SELL GBPUSD → bid 1.32040 ≥ 1.31886 (+1.4 pips)
+2025-11-26 09:49:14,459 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32040 | Ticket: 870887261
+2025-11-26 09:49:15,360 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870887261
+2025-11-26 09:51:30,368 INFO: SEÑAL SELL GBPUSD → bid 1.31980 ≥ 1.31886 (+1.4 pips)
+2025-11-26 09:51:30,494 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31980 | Ticket: 870889866
+2025-11-26 09:51:31,237 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870889866
+2025-11-26 09:53:31,243 INFO: SEÑAL SELL EURUSD → bid 1.15811 ≥ 1.15590 (+1.4 pips)
+2025-11-26 09:53:31,375 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15811 | Ticket: 870892142
+2025-11-26 09:53:32,162 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870892142
+2025-11-26 09:53:47,164 INFO: SEÑAL SELL GBPUSD → bid 1.32017 ≥ 1.31886 (+1.4 pips)
+2025-11-26 09:53:47,292 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32017 | Ticket: 870892351
+2025-11-26 09:53:47,966 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870892351
+2025-11-26 09:54:32,969 INFO: SEÑAL SELL GBPUSD → bid 1.32052 ≥ 1.31886 (+1.4 pips)
+2025-11-26 09:54:33,106 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32052 | Ticket: 870892936
+2025-11-26 09:54:33,913 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870892936
+2025-11-26 09:58:48,926 INFO: SEÑAL SELL GBPUSD → bid 1.31992 ≥ 1.31886 (+1.4 pips)
+2025-11-26 09:58:49,075 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.31992 | Ticket: 870898006
+2025-11-26 09:58:49,799 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870898006
+2025-11-26 10:01:19,808 INFO: SEÑAL SELL GBPUSD → bid 1.32034 ≥ 1.31954 (+1.4 pips)
+2025-11-26 10:01:19,947 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32034 | Ticket: 870904207
+2025-11-26 10:01:21,044 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870904207
+2025-11-26 10:02:36,049 INFO: SEÑAL SELL EURUSD → bid 1.15873 ≥ 1.15749 (+1.4 pips)
+2025-11-26 10:02:36,184 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15873 | Ticket: 870906079
+2025-11-26 10:02:37,070 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870906079
+2025-11-26 10:02:37,070 INFO: SEÑAL SELL GBPUSD → bid 1.32086 ≥ 1.31954 (+1.4 pips)
+2025-11-26 10:02:37,220 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32086 | Ticket: 870906115
+2025-11-26 10:02:38,076 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870906115
+2025-11-26 10:06:08,087 INFO: SEÑAL SELL EURUSD → bid 1.15918 ≥ 1.15749 (+1.4 pips)
+2025-11-26 10:06:08,220 INFO: ORDEN ABIERTA OK → EURUSD | SELL | Vol: 0.01 | Precio: 1.15918 | Ticket: 870911222
+2025-11-26 10:06:08,949 INFO: ABIERTA → EURUSD SELL 0.01 lotes | ticket 870911222
+2025-11-26 10:06:08,949 INFO: SEÑAL SELL GBPUSD → bid 1.32120 ≥ 1.31954 (+1.4 pips)
+2025-11-26 10:06:09,187 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32120 | Ticket: 870911257
+2025-11-26 10:06:09,904 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870911257
+2025-11-26 10:09:24,912 INFO: SEÑAL SELL GBPUSD → bid 1.32150 ≥ 1.31954 (+1.4 pips)
+2025-11-26 10:09:25,052 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32150 | Ticket: 870915342
+2025-11-26 10:09:25,796 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870915342
+2025-11-26 10:14:25,813 INFO: SEÑAL SELL GBPUSD → bid 1.32177 ≥ 1.31954 (+1.4 pips)
+2025-11-26 10:14:25,971 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32177 | Ticket: 870920034
+2025-11-26 10:14:26,766 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870920034
+2025-11-26 10:15:26,782 INFO: SEÑAL SELL GBPUSD → bid 1.32207 ≥ 1.31958 (+1.4 pips)
+2025-11-26 10:15:26,955 INFO: ORDEN ABIERTA OK → GBPUSD | SELL | Vol: 0.01 | Precio: 1.32207 | Ticket: 870921760
+2025-11-26 10:15:27,701 INFO: ABIERTA → GBPUSD SELL 0.01 lotes | ticket 870921760
