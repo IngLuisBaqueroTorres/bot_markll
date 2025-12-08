@@ -14,8 +14,11 @@
     },
     {
       "profit": 0.64
+    },
+    {
+      "profit": 3.85
     }
   ],
-  "total_profit": 2.82,
+  "total_profit": 6.67,
   "win_rate": 100.0
 }

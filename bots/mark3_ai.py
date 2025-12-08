@@ -1,4 +1,6 @@
-# bots/mark3_pro.py → MARK3 PRO INMORTAL + /posiciones + LOTE DINÁMICO (18 nov 2025)
+# mark3_pro.py  (o mark3_ai.py → da igual el nombre que le pongas)
+# MARK3 PRO INMORTAL + DEBUG COMPLETO (27 nov 2025)
+
 import os
 import time
 import json
@@ -29,6 +31,7 @@ APP_LOG = os.path.join(BASE_DIR, "logs", "mark3.log")
 os.makedirs("logs", exist_ok=True)
 os.makedirs("data", exist_ok=True)
 
+# Logger
 logger = logging.getLogger("mark3")
 logger.setLevel(logging.DEBUG)
 fmt = logging.Formatter("%(asctime)s %(levelname)s: %(message)s")
@@ -41,11 +44,15 @@ sh.setLevel(logging.INFO)
 logger.addHandler(fh)
 logger.addHandler(sh)
 
-TIMEFRAME_MAP = {1: mt5.TIMEFRAME_M1, 5: mt5.TIMEFRAME_M5, 15: mt5.TIMEFRAME_M15,
-                 30: mt5.TIMEFRAME_M30, 60: mt5.TIMEFRAME_H1, 240: mt5.TIMEFRAME_H4, 1440: mt5.TIMEFRAME_D1}
+TIMEFRAME_MAP = {
+    1: mt5.TIMEFRAME_M1, 5: mt5.TIMEFRAME_M5, 15: mt5.TIMEFRAME_M15,
+    30: mt5.TIMEFRAME_M30, 60: mt5.TIMEFRAME_H1, 240: mt5.TIMEFRAME_H4, 1440: mt5.TIMEFRAME_D1
+}
 
 # ---------- indicadores ----------
-def ema(series, period): return series.ewm(span=period, adjust=False).mean()
+def ema(series, period): 
+    return series.ewm(span=period, adjust=False).mean()
+
 def atr(df, n=14):
     high = df['high']; low = df['low']; close = df['close']
     tr = pd.concat([high-low, (high-close.shift()).abs(), (low-close.shift()).abs()], axis=1).max(axis=1)
@@ -61,7 +68,7 @@ class Mark3Pro:
         self.stats = self._load_stats()
         self.running = True
         self.telegram_thread = None
-        self.last_close_time = {}  # ← Cooldown por par
+        self.last_close_time = {}  # cooldown 15 min tras cierre
 
         # parámetros
         self.RISK_PCT = float(self.settings.get("RISK_PCT", 1.0)) / 100.0
@@ -106,39 +113,31 @@ class Mark3Pro:
         si = mt5.symbol_info(symbol)
         if not si: return 0.01
         point = si.point
-        value_per_pip = 10 if "USD" in symbol else 9  # aproximado
+        value_per_pip = 10 if "USD" in symbol else 9
         lots = risk / (sl_pips * value_per_pip)
         lots = round(max(0.01, min(lots, 2.0)), 2)
         return lots
 
     # =========================================
-    # NUEVA FUNCIÓN: REPORTE PARA /posiciones
+    # REPORTE /posiciones
     # =========================================
     def get_open_positions_report(self):
         positions = get_positions() or []
         mark3_pos = [p for p in positions if p.symbol in self.pairs]
-        
         if not mark3_pos:
-            return "✅ <b>MARK3</b>: No hay posiciones abiertas en este momento."
-        
-        lines = [f"📊 <b>MARK3 - Posiciones abiertas ({len(mark3_pos)}):</b>"]
+            return "MARK3: No hay posiciones abiertas."
+        lines = [f"MARK3 - Posiciones abiertas ({len(mark3_pos)}):"]
         total_profit = 0.0
-        
         for p in mark3_pos:
             dir_str = "BUY" if p.type == mt5.ORDER_TYPE_BUY else "SELL"
             profit = p.profit or 0.0
             total_profit += profit
-            lines.append(
-                f"• {p.symbol} {dir_str} {p.volume:.2f} lote | "
-                f"Entry {p.price_open:.5f} | "
-                f"Profit {profit:+.2f} USD"
-            )
-        
-        lines.append(f"\n💰 <b>Profit flotante MARK3:</b> {total_profit:+.2f} USD")
+            lines.append(f"• {p.symbol} {dir_str} {p.volume:.2f} | Entry {p.price_open:.5f} | Profit {profit:+.2f} USD")
+        lines.append(f"\nProfit flotante MARK3: {total_profit:+.2f} USD")
         return "\n".join(lines)
 
     # =========================================
-    # TELEGRAM CON /posiciones
+    # Telegram commands
     # =========================================
     def _telegram_fix(self):
         if not BOT_COMMANDS_ENABLED: return
@@ -152,56 +151,73 @@ class Mark3Pro:
                 if "message" not in u: continue
                 text = u["message"].get("text", "").strip()
                 if not text.startswith("/"): continue
-
                 res = handle_telegram_command(text)
                 if res == "stop":
                     logger.info("COMANDO /stop → DETENIENDO MARK3")
                     self.running = False
                     notify_stopped()
-
                 elif res.startswith("status"):
                     bal = mt5.account_info().balance or 0
                     notify_status(bal, self.stats.get("win_rate",0), self.stats.get("total_profit",0), len(self.stats["trades"]))
-
                 elif res == "posiciones":
                     report = self.get_open_positions_report()
                     notify_open_positions(report)
-
-                # marcar como leído
                 upd_id = u.get("update_id")
                 if upd_id:
                     requests.get(f"https://api.telegram.org/bot{token}/getUpdates?offset={upd_id+1}", timeout=3)
         except: pass
 
+    # =========================================
+    # ANÁLISIS + DEBUG COMPLETO
+    # =========================================
     def analyze_and_trade(self):
         positions_all = get_positions() or []
         open_symbols = {p.symbol for p in positions_all}
 
         for symbol in self.pairs:
+            # límite posiciones + cooldown
             if len([p for p in positions_all if p.symbol in self.pairs]) >= self.MAX_POSITIONS:
                 break
             if symbol in open_symbols: continue
-
-            # Cooldown 15 minutos después de cerrar
-            last_close = self.last_close_time.get(symbol)
-            if last_close and (datetime.now() - last_close).total_seconds() < 900:
+            if self.last_close_time.get(symbol) and (datetime.now() - self.last_close_time[symbol]).total_seconds() < 900:
                 continue
 
             try:
                 if not mt5.symbol_select(symbol, True): continue
+
                 df = self.feed.get_candles(symbol, self.timeframe, 200)
                 if df is None or len(df) < 50: continue
+
                 df = df.copy()
-                for c in ["open","high","low","close"]: df[c] = pd.to_numeric(df[c], errors="coerce")
+                for c in ["open","high","low","close"]:
+                    df[c] = pd.to_numeric(df[c], errors="coerce")
                 df = df.dropna()
 
                 df['ema20'] = ema(df['close'], 20)
                 df['ema50'] = ema(df['close'], 50)
                 df['atr'] = atr(df, 14)
 
-                last = df.iloc[-2]
+                last = df.iloc[-2]  # vela cerrada
                 curr_bid, curr_ask = self.feed.get_current_price(symbol)
                 if not curr_bid or not curr_ask: continue
+
+                # ==================== DEBUG POTENTE ====================
+                logger.info("")
+                logger.info("DEBUG %s | %s", symbol, datetime.now().strftime("%H:%M:%S"))
+                logger.info("EMA20 %.5f | EMA50 %.5f → %s", 
+                            last['ema20'], last['ema50'], "ALCISTA" if last['ema20']>last['ema50'] else "BAJISTA")
+                logger.info("Vela cerrada → Close %.5f | High %.5f | Low %.5f", last['close'], last['high'], last['low'])
+                recent_high = df['high'].iloc[-10:-2].max()   # solo 9 velas cerradas
+                recent_low  = df['low'].iloc[-10:-2].min()
+                logger.info("Rango 19 velas → High %.5f | Low %.5f", recent_high, recent_low)
+                logger.info("Precio actual → Ask %.5f | Bid %.5f", curr_ask, curr_bid)
+                logger.info("Cond. COMPRA → Close>High19: %s | Ask>HighVela: %s", 
+                            last['close'] > recent_high, curr_ask > last['high'])
+                logger.info("Cond. VENTA  → Close<Low19: %s | Bid<LowVela: %s", 
+                            last['close'] < recent_low, curr_bid < last['low'])
+                logger.info("ATR %.5f → SL %.5f | TP %.5f", last['atr'], last['atr']*self.ATR_MULT_SL, last['atr']*self.ATR_MULT_TP)
+                logger.info("════════════════════════════════════════════════")
+                # ========================================================
 
                 trend_up = last['ema20'] > last['ema50']
                 atr_val = max(last['atr'], 0.0001)
@@ -210,22 +226,21 @@ class Mark3Pro:
                 tp_distance = atr_val * self.ATR_MULT_TP
                 sl_pips = sl_distance / point
 
-                #lots = self._calc_lots(symbol, sl_pips)  # ← LOTE DINÁMICO REAL
-                lots = 0.01  # ← LOTE FIJO
+                # lots = self._calc_lots(symbol, sl_pips)   # ← descomenta cuando quieras lote dinámico
+                lots = 0.01  # ← lote fijo para pruebas
 
-                recent_high = df['high'].iloc[-20:-1].max()
-                recent_low = df['low'].iloc[-20:-1].min()
+                recent_high = df['high'].iloc[-10:-2].max()   # solo 9 velas cerradas
+                recent_low  = df['low'].iloc[-10:-2].min()
 
-                # BREAKOUT + TENDENCIA
+                # ENTRADAS ORIGINALES (muy estrictas)
                 if trend_up and last['close'] > recent_high and curr_ask > last['high']:
                     sl = curr_ask - sl_distance
                     tp = curr_ask + tp_distance
                     ticket = send_order(symbol, mt5.ORDER_TYPE_BUY, lots, curr_ask, sl, tp)
                     if ticket:
                         notify_trade(symbol, "BUY", curr_ask, sl, tp, ticket, lots)
-                        self._log_trade(symbol=symbol, dir="BUY", ticket=ticket, lots=lots, entry=curr_ask,
-                                        sl=sl, tp=tp, reason="BREAKOUT")
-                        logger.info("MARK3 BUY %s lote %.2f", symbol, lots)
+                        self._log_trade(symbol=symbol, dir="BUY", ticket=ticket, lots=lots, entry=curr_ask, sl=sl, tp=tp, reason="BREAKOUT")
+                        logger.info("MARK3 COMPRA ABIERTA %s - Ticket %d", symbol, ticket)
 
                 elif not trend_up and last['close'] < recent_low and curr_bid < last['low']:
                     sl = curr_bid + sl_distance
@@ -233,12 +248,11 @@ class Mark3Pro:
                     ticket = send_order(symbol, mt5.ORDER_TYPE_SELL, lots, curr_bid, sl, tp)
                     if ticket:
                         notify_trade(symbol, "SELL", curr_bid, sl, tp, ticket, lots)
-                        self._log_trade(symbol=symbol, dir="SELL", ticket=ticket, lots=lots, entry=curr_bid,
-                                        sl=sl, tp=tp, reason="BREAKOUT")
-                        logger.info("MARK3 SELL %s lote %.2f", symbol, lots)
+                        self._log_trade(symbol=symbol, dir="SELL", ticket=ticket, lots=lots, entry=curr_bid, sl=sl, tp=tp, reason="BREAKOUT")
+                        logger.info("MARK3 VENTA ABIERTA %s - Ticket %d", symbol, ticket)
 
             except Exception as e:
-                logger.warning("Error analizando %s: %s", symbol, e)
+                logger.error("Error en %s: %s", symbol, e, exc_info=True)
 
     def monitor_closes(self):
         positions_all = get_positions() or []
@@ -264,7 +278,7 @@ class Mark3Pro:
                 self.stats["win_rate"] = round(wins/len(self.stats["trades"])*100, 2) if self.stats["trades"] else 0
                 self._save_stats()
                 self._log_trade(symbol=pos.symbol, ticket=pos.ticket, profit=profit, reason=reason)
-                self.last_close_time[pos.symbol] = datetime.now()  # ← Cooldown activado
+                self.last_close_time[pos.symbol] = datetime.now()
 
     def run(self):
         if not mt5_connect():
@@ -272,8 +286,8 @@ class Mark3Pro:
             return
 
         balance = mt5.account_info().balance or 0
-        notify_bot_started(balance, f"ATR x{self.ATR_MULT_TP}", f"ATR x{self.ATR_MULT_SL}", self.pairs, "MARK3 PRO")
-        logger.info("MARK3 PRO INMORTAL INICIADO | Balance: $%.2f | Pares: %s", balance, ", ".join(self.pairs))
+        notify_bot_started(balance, f"ATR x{self.ATR_MULT_TP}", f"ATR x{self.ATR_MULT_SL}", self.pairs, "MARK3 PRO + DEBUG")
+        logger.info("MARK3 PRO + DEBUG INICIADO | Balance: $%.2f | Pares: %s", balance, self.pairs)
 
         def tg_thread():
             while self.running:
@@ -284,25 +298,29 @@ class Mark3Pro:
 
         try:
             while self.running:
-                try:
-                    self.monitor_closes()
-                    self.analyze_and_trade()
-                    time.sleep(int(self.settings.get("MAIN_LOOP_DELAY", 45)))
-                except Exception as e:
-                    logger.warning("Error temporal (se ignora): %s", e)
-                    time.sleep(10)
+                self.monitor_closes()
+                self.analyze_and_trade()
+                time.sleep(int(self.settings.get("MAIN_LOOP_DELAY", 45)))
         except KeyboardInterrupt:
-            logger.info("MARK3 DETENIDO POR TI (Ctrl+C)")
+            logger.info("Detenido por usuario")
         finally:
             self.running = False
-            logger.info("MARK3 PRO DETENIDO CORRECTAMENTE")
+            logger.info("MARK3 detenido correctamente")
 
+# ==================================================================
+# LAS TRES FORMAS DE LANZAR EL BOT (para que nunca más dé error)
+# ==================================================================
 def run_mark3_pro():
     bot = Mark3Pro()
     bot.run()
 
-if __name__ == "__main__":
-    run_mark3_pro()
+def run_mark3_ai():
+    bot = Mark3Pro()
+    bot.run()
 
 def run():
-    run_mark3_pro()
+    bot = Mark3Pro()
+    bot.run()
+
+if __name__ == "__main__":
+    run()  # funciona con cualquiera de las tres
